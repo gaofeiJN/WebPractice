@@ -1,0 +1,63 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <style>
+        .container{
+            width: 800px;
+            background-color: gray;
+            margin: 5px;
+            /* overflow: hidden;
+            clear: both; */
+        }
+        .container::after{
+            content: "";
+            display: block;
+            clear: both;
+        }
+        .box1{
+            width: 200px;
+            height: 200px;
+            background-color: red;
+            float: left;
+        }
+        .box2{
+            width: 200px;
+            height: 200px;
+            background-color: blue;
+            float: left;
+        }
+        .box3{
+            width: 200px;
+            height: 200px;
+            background-color: orange;
+            float: left;
+        }
+        .other1{
+            width: 200px;
+            height: 200px;
+            background-color: blueviolet;
+            clear: both;
+        }
+        .other{
+            width: 200px;
+            height: 200px;
+            background-color: yellow;
+        }
+    </style>
+</head>
+
+<body>
+    <div class="container">
+        <div class="box1"></div>
+        <div class="box2"></div>
+        <div class="box3"></div>
+        <div class="other1"></div>
+    </div>
+    <div class="other"></div>
+</body>
+
+</html>
