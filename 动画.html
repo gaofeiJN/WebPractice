@@ -1,0 +1,66 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <style>
+        .box1 {
+            width: 200px;
+            height: 200px;
+            margin: 50px auto;
+
+            animation: myAnim1 2s linear 0s infinite alternate;
+        }
+
+        .box2 {
+            width: 200px;
+            height: 200px;
+            margin: 50px auto;
+
+            animation: myAnim2 2s linear 0s infinite alternate;
+        }
+
+        .box1:hover {
+            animation-play-state: paused;
+        }
+
+        .box2:hover {
+            animation-play-state: paused;
+        }
+
+        @keyframes myAnim1 {
+            0% {
+                background-color: red;
+            }
+
+            50% {
+                background-color: blue;
+            }
+
+            100% {
+                background-color: green;
+            }
+        }
+
+        @keyframes myAnim2 {
+            from {
+                border: 1px solid red;
+                box-shadow: 10px 10px 0px rgb(0, 255, 0, 0.5);
+            }
+
+            to {
+                border: 1px solid red;
+                box-shadow: 10px 10px 20px rgb(0, 255, 0, 0.5);
+            }
+        }
+    </style>
+</head>
+
+<body>
+    <div class="box1"></div>
+    <div class="box2"></div>
+</body>
+
+</html>

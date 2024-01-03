@@ -1,0 +1,72 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <style>
+        .relative1 {
+            height: 200px;
+            width: 200px;
+            background-color: red;
+            position: relative;
+            left: 100px;
+            top: 100px;
+        }
+
+        .relative2 {
+            height: 200px;
+            width: 200px;
+            background-color: purple;
+            position: relative;
+            left: 100px;
+            top: 100px;
+        }
+
+        .absolute1 {
+            height: 300px;
+            width: 300px;
+            background-color: blue;
+            position: absolute;
+            left: 150px;
+            top: 200px;
+            z-index: 200;
+        }
+
+        .absolute2 {
+            height: 300px;
+            width: 300px;
+            background-color: yellow;
+            position: absolute;
+            left: 200px;
+            top: 300px;
+            z-index: 100;
+        }
+
+        .fixed1 {
+            height: 100px;
+            width: 100px;
+            background-color: orange;
+            position: fixed;
+            left: 50px;
+            top: 50px;
+        }
+
+        .other {
+            height: 2000px;
+            width: 1000px;
+        }
+    </style>
+</head>
+
+<body>
+    <div class="relative1"></div>
+    <div class="relative2"></div>
+    <div class="absolute1"></div>
+    <div class="absolute2"></div>
+    <div class="fixed1"></div>
+    <div class="other"></div>
+</body>
+
+</html>
