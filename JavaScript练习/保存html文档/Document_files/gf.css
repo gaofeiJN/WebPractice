@@ -1,0 +1,78 @@
+table::before{
+    clear: both;
+    overflow: hidden;
+}
+
+table{
+    margin-top: 20px;
+    margin-bottom: 20px;
+    border-style: solid;
+    border-width: 1px;
+    border-color: red;
+    /* border-radius: 5%; */
+
+    box-shadow: 4px 4px 10px 4px lightgray ;
+}
+
+table:hover{
+    box-shadow: 4px 4px 10px 4px lightcoral ;
+}
+
+table>caption{
+    font-weight: bold;
+}
+
+td {
+    float: left;
+}
+
+td.link{
+    width: 400px;
+}
+
+input.newname{
+    width: 120px;
+}
+
+input.newaddr{
+    width: 260px;
+}
+
+button{
+    border: 1px solid blue;
+    background-color: white;
+    color: blue;
+}
+
+button:hover{
+    background-color: blue;
+    color: white;
+
+    box-shadow: 1px 1px 3px 1px  lightblue ;
+}
+
+button.add{
+    border: 1px solid green;
+    background-color: white;
+    color: green;
+}
+
+button.add:hover{
+    background-color: green;
+    color: white;
+
+    box-shadow: 1px 1px 3px 1px  greenyellow ;
+}
+
+button.openall{
+    border: 1px solid orange;
+    background-color: white;
+    color: orange;
+}
+
+button.openall:hover{
+    background-color: orange;
+    color: white;
+
+    box-shadow: 1px 1px 3px 1px  orange ;
+}

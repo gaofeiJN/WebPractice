@@ -1,0 +1,36 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>Title</title>
+    <style>
+
+        /* 动画结束时，元素的式样会返回到动画开始前的值，@keyframes中定义的式样在不会持续存在 */
+        /* 若希望结束时式样保持最后的状态，应该使用transition */
+        div {
+            width: 100px;
+            height: 100px;
+            background-color: red;
+
+            animation-name: example;
+            animation-duration: 1s;
+            animation-timing-function: linear;
+            animation-iteration-count: 1;
+            animation-direction: alternate;
+        }
+
+        @keyframes example {
+            to {
+                width: 200px;
+                height: 200px;
+                background-color: green;
+            }
+        }
+    </style>
+</head>
+<body>
+<div>
+
+</div>
+</body>
+</html>

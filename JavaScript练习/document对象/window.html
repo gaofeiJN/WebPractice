@@ -1,0 +1,70 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+</head>
+
+<body>
+    <button type="button" id="alert1">alert</button><br>
+    <button type="button" id="confirm1">confirm</button><br>
+    <button type="button" id="prompt1">prompt</button><br>
+    <button type="button" id="showModalDialog1">showModalDialog</button><br>
+
+
+
+
+    <script type="text/JavaScript">
+        console.log(window);
+        console.log(document.defaultView);
+
+        // window给用户提示的方法
+        // alert()
+        // confirm()
+        // prompt()
+        // showModalDialog
+        var btns = document.getElementsByTagName("button");
+        for (i=0;i<btns.length;i++){
+            btns[i].onclick=resolveClick;
+        }
+
+        function resolveClick(e) {
+            switch (e.target.id) {
+                case "alert1":
+                    window.alert("This is an alert!");
+                    break;
+            
+                case "confirm1":
+                    var con1=window.confirm("Please confirm the message!");
+                    window.confirm("msg");
+                    window.alert("helk");
+                    window.prompt("fosfosj");
+                    window.confir
+                    console.log(con1);
+                    
+                    break;
+            
+                case "prompt1":
+                    var pro1=window.prompt("This is a prompt!","hello");
+                    console.log(pro1);
+                    break;
+                
+                    case "showModalDialog1":
+                    console.log(window["showModalDialog"]);
+                    
+                // showModalDialog() is not a function!
+                // case "showModalDialog1":
+                //     window.showModalDialog("https://www.bilibili.com/");
+                //     break;
+            
+                default:
+                    break;
+            }
+        }
+
+    </script>
+</body>
+
+</html>

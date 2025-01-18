@@ -1,0 +1,125 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+
+    <style>
+        div {
+            overflow: hidden;
+            clear: both;
+        }
+
+        li {
+            /* float: left; */
+        }
+
+        form {
+            clear: both;
+        }
+
+        td{
+            width: 100px;
+        }
+
+        #div1 {
+            height: 500px;
+            width: 500px;
+            background-color: blueviolet;
+        }
+
+        #div2 {
+            height: 500px;
+            width: 500px;
+            background-color: antiquewhite;
+        }
+    </style>
+</head>
+
+<body>
+    <div>
+        <!-- memu元素 -->
+        <menu type="circle">
+            <li><a href="#">红烧狮子头</a></li>
+            <li><a href="#">苹果派</a></li>
+            <li><a href="#">把子肉</a></li>
+            <li><a href="#">酸汤饺子</a></li>
+            <li><a href="#">糖醋排骨</a></li>
+        </menu>
+
+        <br>
+        <br>
+        <br>
+
+        <!-- 全局属性 -->
+        <!-- accesskey 为元素添加快捷键，alt + accesskey即为元素的快捷键-->
+        <form action="">
+            <input type="text" name="name" accesskey="n">
+            <br>
+            <input type="password" name="password" accesskey="p">
+            <br>
+            <button type="button" name="button" accesskey="b">按钮</button>
+
+        </form>
+
+        <!-- class属性 class与classlist -->
+        <!-- html中标签属性为class，javascript中元素节点的属性为classList -->
+        <button id="btn1" class="class1 class2 class3">按钮</button>
+        <button id="btn2" class="class5">按钮</button>
+
+        <!-- contenteditable -->
+        <p contenteditable="false">两只老虎跑得快</p>
+
+        <!-- dir属性 定义元素中文字的方向 ltr：从左向右；rtl：从右向左 -->
+        <p dir="ltr">两只老虎爱跳舞</p>
+        <p dir="rtl">小兔子乖乖拔萝卜</p>
+
+        <!-- draggable与dropzone 实现元素的拖放 -->
+        <!-- <div id="div1" dropzone="true">
+            <button draggable="true">大米</button>
+        </div>
+
+        <div id="div2" dropzone="link">
+            <button draggable="true">苹果</button><br>
+            <button draggable="true">苹果</button><br>
+            <button draggable="true">苹果</button><br>
+            <button draggable="true">苹果</button><br>
+        </div> -->
+
+        <!-- hidden属性 -->
+         <table>
+            <tr><th>name</th><th>city</th></tr>
+            <tr><td>gao fei</td><td>jinan</td></tr>
+            <tr id="tr1"><td>scarlet</td><td>newyork</td></tr>
+            <tr><td>super man</td><td>gotan</td></tr>
+         </table>
+         <button onclick="toggleHidden()">toggle</button>
+    </div>
+
+
+    <script>
+        var btn1 = document.getElementById("btn1");
+        console.log(btn1);
+        console.log(btn1.class);
+        console.log(btn1.classList);
+
+        var btn2 = document.getElementById("btn2");
+        console.log(btn2);
+        console.log(btn2.class);
+        console.log(btn2.classList);
+
+        function toggleHidden(){
+            var tr1=document.getElementById("tr1");
+
+            if (tr1.hasAttribute("hidden")){
+                tr1.removeAttribute("hidden");
+            } else {
+                tr1.setAttribute("hidden","hidden");
+            }
+        }
+    </script>
+</body>
+
+</html>

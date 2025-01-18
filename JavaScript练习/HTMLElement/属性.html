@@ -1,0 +1,70 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+</head>
+<body>
+    <p id="myp1" class="cla1 cla2 cla3" heigth="200px" name="gfp1" data-name="gao fei" data-age="37">
+
+    </p>
+
+
+    <script>
+        var myp1=document.getElementById("myp1");
+
+        // 全局属性 className,classList
+        console.log(myp1.className);
+
+        for (var i=0;i<myp1.classList.length;i++){
+            console.log("classList[" + i + "] : " + myp1.classList[i] + "\n");            
+        }
+        
+        // classList.toggle()
+        console.log("classList now contains 'cla2' : " + myp1.classList.contains("cla2"));
+        myp1.classList.toggle("cla2");
+        console.log("classList now contains 'cla2' : " + myp1.classList.contains("cla2"));
+        myp1.classList.toggle("cla2");
+        console.log("classList now contains 'cla2' : " + myp1.classList.contains("cla2"));
+        
+        // classLIst.add()  .remove()
+        myp1.classList.add("cla4");
+        myp1.classList.remove("cla1");
+        console.log(myp1.classList);
+
+        // 自定义属性 dataset
+        console.log("dataset : " + myp1.dataset);
+        for (var dtname in myp1.dataset){
+            console.log("dataset[" + dtname + "] : " + myp1.dataset[dtname]);            
+        }   
+        
+        // 所有属性attrbutes
+        for (i=0;i<myp1.attributes.length;i++){
+            console.log("attributes[" + i + "] : " + myp1.attributes[i].name + " " + myp1.attributes[i].value);            
+        }
+
+        console.log("attributes[id] : " + myp1.attributes["id"].value);
+        
+        // 属性相关的方法
+        // hasAttribute()
+        // getAttribute()   返回属性的值
+        // setAttribute()
+        // setAttributeNode()
+        // removeAttribute()
+        console.log("hasAttribute id : " + myp1.hasAttribute("id"));
+        console.log("getAttribute name : " + myp1.getAttribute("name"));
+        myp1.setAttribute("name","hellogf");
+        console.log("getAttribute name : " + myp1.getAttribute("name"));
+
+        var newattr=document.createAttribute("data-newat");
+        newattr.value="newatt";
+        myp1.setAttributeNode(newattr);
+        console.log("getAttribute data-newat : " + myp1.getAttribute("data-newat"));
+
+        myp1.removeAttribute("data-age");
+        console.log("getAttribute data-age : " + myp1.getAttribute("data-age"));
+        
+    </script>
+</body>
+</html>

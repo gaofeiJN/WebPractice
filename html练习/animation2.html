@@ -1,0 +1,73 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>Title</title>
+    <style>
+        /* 为一个选择器定义多组@keyframes */
+        /* 相应的，也可以把同一组@keyframes指定给多个选择器 */
+        div {
+            animation-name: example1, example2;
+            animation-timing-function: linear;
+            animation-duration: 2.5s;
+            animation-iteration-count: infinite;
+            animation-direction: alternate;
+
+        }
+
+        /* 在@keyframes中定义要应用动画的属性 */
+        @keyframes example1 {
+            from {
+                width: 100px;
+                height: 100px;
+                background-color: red;
+                border: 1px solid black;
+            }
+
+            to {
+                width: 200px;
+                height: 200px;
+                background-color: green;
+                border: 2px dashed blue;
+            }
+        }
+
+        @keyframes example2 {
+            0% {
+                box-shadow: 10px 10px 5px yellow;
+            }
+
+            50% {
+                box-shadow: 10px 10px 5px red;
+            }
+
+            100% {
+                box-shadow: 20px 20px 10px blue;
+            }
+        }
+
+
+    </style>
+</head>
+<body>
+<div id="div1">
+
+</div>
+<button id="btn1">暂停</button>
+<button id="btn2">开始</button>
+
+<script>
+    let btn1 = document.getElementById("btn1");
+    let btn2 = document.getElementById("btn2");
+    let div1 = document.getElementById("div1");
+
+    // 通过改变elem.style.animationPlayState的值来控制动画的播放（running）和暂停（paused）
+    btn1.onclick = function () {
+        div1.style.animationPlayState = "paused";
+    }
+    btn2.onclick = function () {
+        div1.style.animationPlayState = "running";
+    }
+</script>
+</body>
+</html>

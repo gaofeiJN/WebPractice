@@ -1,0 +1,26 @@
+main {
+  height: 100dvh;
+  width: 100dvw;
+
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+}
+
+h1 {
+  height: 45px;
+  width: 30vw;
+  box-sizing: margin-box;
+
+  border: thin solid black;
+  background-color: antiquewhite;
+
+  text-align: center;
+}
+
+input {
+  height: 2em;
+  width: 20dvw;
+  text-align: center;
+}

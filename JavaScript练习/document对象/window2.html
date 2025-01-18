@@ -1,0 +1,27 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+</head>
+<body>
+
+    <button type="button" id="btn1">传送消息</button>
+
+    <iframe src="winw.html" frameborder="0" id="frm1" name="frm1">
+
+    </iframe>
+
+    <script>
+        var btn1=document.getElementById("btn1");
+        btn1.onclick=function (){
+            
+            // Failed to execute 'postMessage' on 'DOMWindow': 
+            // The target origin provided ('file://') does not match the recipient window's origin ('null').
+            // window["frm1"].postMessage("来自window2的消息","e:\\");
+            
+        }
+    </script>
+</body>
+</html>

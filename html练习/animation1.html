@@ -1,0 +1,62 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>Title</title>
+    <style>
+        /* 在选择器中定义动画属性 */
+        div {
+            animation-name: example;
+            animation-timing-function: linear;
+            animation-duration: 2.5s;
+            animation-iteration-count: infinite;
+            animation-direction: alternate;
+
+        }
+
+        /* 在@keyframes中定义要应用动画的属性 */
+        @keyframes example {
+            from {
+                width: 100px;
+                height: 100px;
+                background-color: red;
+                border: 1px solid black;
+
+                box-shadow: 10px 10px 5px #888888;
+            }
+
+            to {
+                width: 200px;
+                height: 200px;
+                background-color: green;
+                border: 2px dashed blue;
+
+                box-shadow: 20px 20px 10px lightcoral;
+            }
+        }
+
+
+    </style>
+</head>
+<body>
+<div id="div1">
+
+</div>
+<button id="btn1">暂停</button>
+<button id="btn2">开始</button>
+
+<script>
+    let btn1 = document.getElementById("btn1");
+    let btn2 = document.getElementById("btn2");
+    let div1 = document.getElementById("div1");
+
+    // 通过改变elem.style.animationPlayState的值来控制动画的播放（running）和暂停（paused）
+    btn1.onclick = function () {
+        div1.style.animationPlayState = "paused";
+    }
+    btn2.onclick = function () {
+        div1.style.animationPlayState = "running";
+    }
+</script>
+</body>
+</html>

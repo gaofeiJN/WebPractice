@@ -1,0 +1,26 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+</head>
+
+<body>
+    <section id="sec1">
+        Hello World!
+    </section>
+
+    <script>
+        window.addEventListener("message", recerveMessage);
+
+        function recerveMessage(e) {
+            document.writeln(e.data.toString());
+            document.writeln(e.origin);
+            document.writeln(e.window.toString());
+        }
+    </script>
+</body>
+
+</html>

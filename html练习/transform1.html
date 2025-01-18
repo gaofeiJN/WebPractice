@@ -1,0 +1,47 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>Title</title>
+    <style>
+        div {
+            width: 100px;
+            height: 100px;
+            background: red;
+            border: 1px solid black;
+            margin: 20px;
+
+            /*旋转*/
+            transform: rotate(45deg);
+
+            /*平移*/
+            /*transform:translate(200px, 200px);*/
+
+            /*缩小/放大*/
+            /*transform: scale(1.5);*/
+
+            /*可以为transform设置过渡或者动画*/
+            transition-delay: 0.5s;
+            transition-duration: 1s;
+            transition-timing-function: linear;
+            transition-property: transform;
+        }
+
+        div:hover {
+            /*倾斜*/
+            transform: skew(0deg, 20deg);
+
+            /*可以为transform设置过渡或者动画*/
+            transition-delay: 0.5s;
+            transition-duration: 1s;
+            transition-timing-function: linear;
+            transition-property: transform;
+        }
+    </style>
+</head>
+<body>
+<div>
+
+</div>
+</body>
+</html>

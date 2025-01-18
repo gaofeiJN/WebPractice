@@ -1,0 +1,161 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+</head>
+<body>
+    <header>
+        <!-- place navbar here -->
+    </header>
+    <main>
+        <form action="" id="form1">
+            <!-- input-text -->
+            <!-- 为text类型的input定义初始值，占位提示字符串 -->
+            <input type="text" value="这是初始值"><br>
+            <input type="text" placeholder="这是占位提示文本"><br>
+
+            <!-- 为text类型的input定义数据列表datalist -->
+            <input type="text" placeholder="输入喜欢的水果" list="dtlst1"><br>
+
+            <!-- disabled和readonly属性 -->
+            <!-- 制定了disabled的input标签不会被提交 -->
+            <input type="text" placeholder="输入喜欢的水果" list="dtlst1" disabled><br>
+            <input type="text" placeholder="输入喜欢的水果" list="dtlst1" readonly><br>
+
+
+            <!-- input-submit,reset,button -->
+            <input type="submit" value="提交"><br>
+            <input type="reset" value="重置"><br>
+            <input type="button" value="按钮"><br>
+            <button type="reset">重置</button><br>
+
+            <!-- input-number -->
+            <!-- min：可以输入的最小值；max：可以输入的最大值；step：上下调整的步长 -->
+            <label>输入0到100的数字
+                <input type="number" list="dtlst2" min="0" max="100" step="2">
+            </label><br>
+            <!-- input-range -->
+            <!-- 属性与number型input一致 -->
+            <label>选择0到100的数字
+                <input type="range" min="0" max="100" step="2">
+            </label><br>
+
+            <!-- input-checkbox -->
+            <!-- checked : 刚加载或者表单reset时，复选框呈现勾选状态 -->
+            <!-- required : 必须勾选该元素，否则无法通过输入验证 -->
+            <!-- value : 勾选状态时提交给服务器的值，默认为on -->
+            <!--         只有勾选状态的元素会被提交给服务器 -->
+            <label for="chkbox1">你是高菲吗？
+                <input type="checkbox" id="chkbox1" required checked value="yes">
+            </label><br>
+            <label for="chkbox2">你是王金飞吗？
+                <input type="checkbox" id="chkbox2" required value="yes">
+            </label><br>
+            <label for="chkbox3">你是高钰城吗？
+                <input type="checkbox" id="chkbox3">
+            </label><br>
+
+            <!-- input-radio -->
+            <!-- checked : 刚加载或者表单reset时，单选按钮呈现勾选状态 -->
+            <!-- required : 必须在单选按钮中选一个，否则无法通过输入验证 -->
+            <!-- value : 勾选状态时提交给服务器的值，默认为on -->
+            <!--         只有勾选状态的元素会被提交给服务器 -->
+            <!--         将一组单选按钮的name设置为同一个值 -->
+            <fieldset>
+                <legend>选择你的城市</legend>
+                <label for="city1"> <input type="radio" name="citys" id="city1" value="济南" checked> 济南</label>
+                <label for="city2"> <input type="radio" name="citys" id="city2" value="北京" checked> 北京</label>
+                <label for="city3"> <input type="radio" name="citys" id="city3" value="泰安" checked> 泰安</label>
+                </label><br>
+            </fieldset>
+
+            <!-- input-日期时间类型 -->
+            <!--  datetime -->
+            <!--  datetime-local -->
+            <!--  date -->
+            <!--  week -->
+            <!--  month -->
+            <!--  time -->
+            <fieldset>
+                <legend>input-日期时间类型</legend>
+                <label>datetime: <input type="datetime"></label><br>
+                <label>datetime-local: <input type="datetime-local"></label><br>
+                <label>date: <input type="date"></label><br>
+                <label>week: <input type="week"></label><br>
+                <label>month: <input type="month"></label><br>
+                <label>time: <input type="time"></label><br>
+            </fieldset>
+
+            <!-- input-color -->
+            <label>选择你喜欢的颜色：<input type="color"></label><br>
+
+            <!-- input-image -->
+            <!--       图像按钮。点击图像按钮后会提交表单。向服务器发送的数据中包括点击位置相对于图像左上角的x,y坐标 -->
+            <label>点击下面的图像以提交表单：<br>
+                <input type="image" src="./pics/2.webp">
+            </label><br>
+
+            <!-- input-file -->
+            <!--       提交表单后会向服务器发送文件 -->
+            <label>上传文件：<input type="file"></label><br>
+
+            <!-- select -->
+            <!-- 单选 -->
+            <label for="sel1">选择性别：
+                <select name="sel1" id="sel1">
+                    <option value="男">男</option>
+                    <option value="女">女</option>
+                </select>
+            </label><br>
+
+            <!-- 多选 -->
+            <label for="sel2">选择喜欢的水果(ctrl+鼠标左键进行多选)：<br>
+                <select name="sel2" id="sel2" multiple size="11">
+                    <optgroup label="春天">
+                        <option value="草莓">草莓</option>
+                    </optgroup>
+                    <optgroup label="夏天">
+                        <option value="桃子">桃子</option>
+                        <option value="西瓜">西瓜</option>
+                    </optgroup>
+                    <optgroup label="秋天">
+                        <option value="香蕉">香蕉</option>
+                    </optgroup>
+                    <optgroup label="冬天">
+                        <option value="苹果">苹果</option>
+                        <option value="橘子">橘子</option>
+                    </optgroup>
+                </select>
+            </label><br>
+
+            <!-- output -->
+            <fieldset>
+
+                <input type="number" id="num1" name="num1"> * 
+                <input type="number" id="num2" name="num2"> =
+                <output for="num1 name" name="res"></output> 
+
+            </fieldset>
+
+        </form>
+
+        <datalist id="dtlst1">
+            <option value="apple">fine apple</option>
+            <option value="orange" label="fresh orange"></option>
+            <option value="banana" />
+        </datalist>
+
+        <datalist id="dtlst2">
+            <option value="3">number 3</option>
+            <option value="4" label="输入4"></option>
+            <option value="5" />
+        </datalist>
+
+    </main>
+    <footer>
+        <!-- place footer here -->
+    </footer>
+</body>
+</html>

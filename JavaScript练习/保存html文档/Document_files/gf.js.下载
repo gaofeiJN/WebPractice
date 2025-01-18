@@ -1,0 +1,82 @@
+// var btns = document.getElementsByTagName("button");
+// for (let i = 0; i < btns.length; i++) {
+//   btns[i].addEventListener("click", handleButtonClick);
+// }
+
+let tbls = document.getElementsByTagName("table");
+for (let i = 0; i < tbls.length; i++) {
+  tbls[i].addEventListener("click", handleButtonClick);
+}
+
+function handleButtonClick(e) {
+  let cla1 = e.target.classList[0];
+
+  switch (cla1) {
+    case "add":
+      addRow(e, this);
+      break;
+
+    case "moveup":
+      moveUp(e, this);
+      break;
+
+    case "movedown":
+      moveDown(e, this);
+      break;
+
+    case "delete":
+      deleteRow(e, this);
+      break;
+
+    default:
+      break;
+  }
+}
+
+// 新建链接
+function addRow(e, table) {
+  let linkname = e.target.parentNode.querySelector(".newname").value;
+  let linkaddr = e.target.parentNode.querySelector(".newaddr").value;
+
+  try {
+    new URL(linkaddr);
+  } catch (error) {
+    alert("输入的地址不合法！");
+    return;
+  }
+
+  let linkurl = `<td class="link"><a href="${linkaddr}" target="_blank">${linkname}</a></td><td class="btn"><button class="moveup">向上</button></td><td class="btn"><button class="movedown">向下</button></td><td class="btn"><button class="delete">刪除</button></td>`;
+  let newtr = document.createElement("tr");
+  newtr.innerHTML = linkurl;
+
+  let tbody = table.querySelector("tbody");
+  tbody.appendChild(newtr);
+}
+
+// 向上
+function moveUp(e, table) {
+  let thisrow = e.target.parentNode.parentNode;
+  let tbody = table.querySelector("tbody");
+
+  if (thisrow.previousSibling) {
+    tbody.insertBefore(thisrow, thisrow.previousSibling);
+  }
+}
+
+// 向下
+function moveDown(e, table) {
+  let thisrow = e.target.parentNode.parentNode;
+  let tbody = table.querySelector("tbody");
+
+  if (thisrow.nextSibling) {
+    tbody.insertBefore(thisrow.nextSibling, thisrow);
+  }
+}
+
+// 删除
+function deleteRow(e, table) {
+  let thisrow = e.target.parentNode.parentNode;
+  let tbody = table.querySelector("tbody");
+
+  tbody.removeChild(thisrow);
+}

@@ -1,0 +1,301 @@
+<!doctype html>
+<html lang="en">
+
+<head>
+    <title>Title</title>
+    <!-- Required meta tags -->
+    <meta charset="utf-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no" />
+
+    <!-- Bootstrap CSS v5.2.1 -->
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.2/dist/css/bootstrap.min.css" rel="stylesheet"
+        integrity="sha384-T3c6CoIi6uLrA9TneNEoa7RxnatzjcDSCmG1MXxSR1GAsXEV/Dwwykc2MPK8M2HN" crossorigin="anonymous" />
+</head>
+
+<body>
+    <header>
+        <!-- place navbar here -->
+        <!-- bs5-nav-tabs-pills-dropdown ： 导航栏上的dropdown -->
+        <ul class="nav nav-tabs">
+            <li class="nav-item">
+                <a href="#" class="nav-link active" aria-current="page">Active</a>
+            </li>
+            <li class="nav-item dropdown">
+                <a class="nav-link dropdown-toggle" data-bs-toggle="dropdown" href="#" role="button"
+                    aria-haspopup="true" aria-expanded="false">Dropdown</a>
+                <div class="dropdown-menu">
+                    <a class="dropdown-item" href="#">Action</a>
+                    <a class="dropdown-item" href="#">Another action</a>
+                    <div class="dropdown-divider"></div>
+                    <a class="dropdown-item" href="#">Action</a>
+                </div>
+            </li>
+            <li class="nav-item">
+                <a href="#" class="nav-link">Another link</a>
+            </li>
+            <li class="nav-item">
+                <a href="#" class="nav-link disabled">Disabled</a>
+            </li>
+        </ul>
+    </header>
+    <main>
+        <!-- Dropdown alignment : trigger为button，灰底白字，有Section header，dropdown-divider  -->
+        <div class="btn-group">
+            <button class="btn btn-secondary dropdown-toggle" type="button" id="triggerId1" data-bs-toggle="dropdown"
+                aria-haspopup="true" aria-expanded="false">
+                This dropdown's menu is start/end-aligned
+            </button>
+            <div class="dropdown-menu dropdown-menu-start" aria-labelledby="triggerId1">
+                <a class="dropdown-item" href="#">Action</a>
+                <a class="dropdown-item disabled" href="#">Disabled action</a>
+                <h6 class="dropdown-header">Section header</h6>
+                <a class="dropdown-item" href="#">Action</a>
+                <div class="dropdown-divider"></div>
+                <a class="dropdown-item" href="#">After divider action</a>
+            </div>
+        </div>
+
+        <!-- Dropdown default : trigger为button，灰底白字，有Section header，dropdown-divider  -->
+        <!-- 与Dropdown alighment效果一样 -->
+        <div class="dropdown">
+            <button class="btn btn-secondary dropdown-toggle" type="button" id="triggerId2" data-bs-toggle="dropdown"
+                aria-haspopup="true" aria-expanded="false">
+                Dropdown
+            </button>
+            <div class="dropdown-menu" aria-labelledby="triggerId2">
+                <a class="dropdown-item" href="#">Action</a>
+                <a class="dropdown-item disabled" href="#">Disabled action</a>
+                <h6 class="dropdown-header">Section header</h6>
+                <a class="dropdown-item" href="#">Action</a>
+                <div class="dropdown-divider"></div>
+                <a class="dropdown-item" href="#">After divider action</a>
+            </div>
+        </div>
+
+        <!-- Dropdown anchor : trigger是一个a标签：anchor，灰底白字 -->
+        <div class="dropdown open color">
+            <a class="btn btn-secondary dropdown-toggle" type="button" id="triggerId3" data-bs-toggle="dropdown"
+                aria-haspopup="true" aria-expanded="false">
+                Dropdown Anchor
+            </a>
+            <div class="dropdown-menu" aria-labelledby="triggerId3">
+                <a class="dropdown-item" href="#">Action</a>
+                <a class="dropdown-item disabled" href="#">Disabled action</a>
+            </div>
+        </div>
+
+        <!-- Dropdown button : trigger是一个button，其余和[Dropdown anchor]一样 -->
+        <div class="dropdown open">
+            <button class="btn btn-secondary dropdown-toggle" type="button" id="triggerId4" data-bs-toggle="dropdown"
+                aria-haspopup="true" aria-expanded="false">
+                Dropdown Button
+            </button>
+            <div class="dropdown-menu" aria-labelledby="triggerId4">
+                <button class="dropdown-item" href="#">Action</button>
+                <button class="dropdown-item disabled" href="#">
+                    Disabled action
+                </button>
+            </div>
+        </div>
+
+        <!-- Dropdown colored : 为trigger添加颜色：btn-primary，其余和[Dropdown button]一样 -->
+        <div class="dropdown open">
+            <button class="btn btn-primary dropdown-toggle" type="button" id="triggerId5" data-bs-toggle="dropdown"
+                aria-haspopup="true" aria-expanded="false">
+                Dropdown Colored
+            </button>
+            <div class="dropdown-menu" aria-labelledby="triggerId5">
+                <a class="dropdown-item" href="#">Action</a>
+                <a class="dropdown-item disabled" href="#">Disabled action</a>
+            </div>
+        </div>
+
+        <!-- Dropdown sized : trigger添加了类 btn-sm -->
+        <div class="dropdown open">
+            <button class="btn btn-secondary btn-sm dropdown-toggle" type="button" id="triggerId6"
+                data-bs-toggle="dropdown" aria-haspopup="true" aria-expanded="false">
+                Dropdown Sized
+            </button>
+            <div class="dropdown-menu" aria-labelledby="triggerId6">
+                <a class="dropdown-item" href="#">Action</a>
+                <a class="dropdown-item disabled" href="#">Disabled action</a>
+                <h6 class="dropdown-header">Section header</h6>
+                <a class="dropdown-item" href="#">Action</a>
+                <div class="dropdown-divider"></div>
+                <a class="dropdown-item" href="#">After divider action</a>
+            </div>
+        </div>
+
+        <!-- Split dropdown ： 弹出的菜单和trigger右边的箭头对齐 -->
+        <div class="btn-group">
+            <button type="button" class="btn btn-secondary">Split dropdown</button>
+            <button type="button" class="btn btn-secondary dropdown-toggle dropdown-toggle-split"
+                data-bs-toggle="dropdown" aria-haspopup="true" aria-expanded="false">
+                <span class="visually-hidden">Toggle Dropdown</span>
+            </button>
+            <div class="dropdown-menu">
+                <a class="dropdown-item" href="#">Action</a>
+                <a class="dropdown-item disabled" href="#">Disabled action</a>
+                <div class="dropdown-divider"></div>
+                <a class="dropdown-item" href="#">Separated link</a>
+            </div>
+        </div>
+
+        <!-- Dropup -->
+        <div class="dropup">
+            <button class="btn btn-secondary dropdown-toggle" type="button" id="triggerId8" data-bs-toggle="dropdown"
+                aria-haspopup="true" aria-expanded="false">
+                Dropup
+            </button>
+            <div class="dropdown-menu" aria-labelledby="triggerId8">
+                <a class="dropdown-item" href="#">Action</a>
+                <a class="dropdown-item disabled" href="#">Disabled action</a>
+                <h6 class="dropdown-header">Section header</h6>
+                <a class="dropdown-item" href="#">Action</a>
+                <div class="dropdown-divider"></div>
+                <a class="dropdown-item" href="#">After divider action</a>
+            </div>
+        </div>
+
+        <!-- Split dropup -->
+        <div class="btn-group dropup">
+            <button type="button" class="btn btn-secondary">Split dropup</button>
+            <button type="button" class="btn btn-secondary dropdown-toggle" data-bs-toggle="dropdown"
+                aria-haspopup="true" aria-expanded="false">
+                <span class="visually-hidden">Toggle Dropdown</span>
+            </button>
+            <div class="dropdown-menu">
+                <a class="dropdown-item" href="#">Action</a>
+                <a class="dropdown-item disabled" href="#">Disabled action</a>
+                <h6 class="dropdown-header">Section header</h6>
+                <a class="dropdown-item" href="#">Action</a>
+                <div class="dropdown-divider"></div>
+                <a class="dropdown-item" href="#">After divider action</a>
+            </div>
+        </div><br>
+
+        <!-- bs5-bgroup-dropdown : 一个button-group，其中一个button是dropdown -->
+        <div class="btn-group" role="group" aria-label="">
+            <button type="button" class="btn btn-secondary">First One</button>
+            <button type="button" class="btn btn-secondary">Second One</button>
+            <div class="btn-group" role="group">
+                <button id="dropdownId10" type="button" class="btn btn-secondary dropdown-toggle"
+                    data-bs-toggle="dropdown" aria-haspopup="true" aria-expanded="false">
+                    More
+                </button>
+                <div class="dropdown-menu" aria-labelledby="dropdownId10">
+                    <a class="dropdown-item" href="#">First Dropdown</a>
+                    <a class="dropdown-item" href="#">Second Dropdown</a>
+                </div>
+            </div>
+        </div><br>
+
+        <!-- bs5-bgroup-dropdown-vertical : 一个button-group，其中一个button是dropdown;btn-group垂直方向排列 -->
+        <div class="btn-group-vertical" role="group" aria-label="">
+            <button type="button" class="btn btn-secondary text-left">First One</button>
+            <button type="button" class="btn btn-secondary text-left">Second One</button>
+            <div class="btn-group" role="group">
+                <button id="dropdownId" type="button" class="btn btn-secondary dropdown-toggle text-left"
+                    data-bs-toggle="dropdown" aria-haspopup="true" aria-expanded="false">
+                    More
+                </button>
+                <div class="dropdown-menu" aria-labelledby="dropdownId">
+                    <a class="dropdown-item" href="#">First Dropdown</a>
+                    <a class="dropdown-item" href="#">Second Dropdown</a>
+                </div>
+            </div>
+        </div><br>
+
+        <!-- bs5-igroup-dropdown-end ： input的右边附加一个dropdown -->
+        <div class="input-group mb-3">
+            <input type="text" class="form-control" aria-label="Text input with dropdown button" />
+            <button class="btn btn-outline-secondary dropdown-toggle" type="button" data-bs-toggle="dropdown"
+                aria-expanded="false">
+                Dropdown
+            </button>
+            <ul class="dropdown-menu dropdown-menu-end">
+                <li><a class="dropdown-item" href="#">Action</a></li>
+                <li><a class="dropdown-item" href="#">Another action</a></li>
+                <li><a class="dropdown-item" href="#">Something else here</a></li>
+                <li>
+                    <hr class="dropdown-divider" />
+                </li>
+                <li><a class="dropdown-item" href="#">Separated link</a></li>
+            </ul>
+        </div>
+
+        <!-- bs5-igroup-dropdown-start ： input的左边附加一个dropdown -->
+        <div class="input-group mb-3">
+            <button class="btn btn-outline-secondary dropdown-toggle" type="button" data-bs-toggle="dropdown"
+                aria-expanded="false">
+                Dropdown
+            </button>
+            <ul class="dropdown-menu">
+                <li><a class="dropdown-item" href="#">Action</a></li>
+                <li><a class="dropdown-item" href="#">Another action</a></li>
+                <li><a class="dropdown-item" href="#">Something else here</a></li>
+                <li>
+                    <hr class="dropdown-divider" />
+                </li>
+                <li><a class="dropdown-item" href="#">Separated link</a></li>
+            </ul>
+            <input type="text" class="form-control" aria-label="Text input with dropdown button" />
+        </div>
+
+        <!-- bs5-igroup-dropdown-segmented-end ： input的右边附加一个dropdown,弹出的菜单和trigger右边的箭头对齐 -->
+        <div class="input-group">
+            <input type="text" class="form-control" aria-label="Text input with segmented dropdown button" />
+            <button type="button" class="btn btn-outline-secondary">
+                Dropdown
+            </button>
+            <button type="button" class="btn btn-outline-secondary dropdown-toggle dropdown-toggle-split"
+                data-bs-toggle="dropdown" aria-expanded="false">
+                <span class="visually-hidden">Toggle Dropdown</span>
+            </button>
+            <ul class="dropdown-menu dropdown-menu-end">
+                <li><a class="dropdown-item" href="#">Action</a></li>
+                <li><a class="dropdown-item" href="#">Another action</a></li>
+                <li><a class="dropdown-item" href="#">Something else here</a></li>
+                <li>
+                    <hr class="dropdown-divider" />
+                </li>
+                <li><a class="dropdown-item" href="#">Separated link</a></li>
+            </ul>
+        </div>
+
+        <!-- bs5-igroup-dropdown-segmented-start ： input的左边附加一个dropdown,弹出的菜单和trigger右边的箭头对齐 -->
+        <div class="input-group mb-3">
+            <button type="button" class="btn btn-outline-secondary">
+                Dropdown
+            </button>
+            <button type="button" class="btn btn-outline-secondary dropdown-toggle dropdown-toggle-split"
+                data-bs-toggle="dropdown" aria-expanded="false">
+                <span class="visually-hidden">Toggle Dropdown</span>
+            </button>
+            <ul class="dropdown-menu">
+                <li><a class="dropdown-item" href="#">Action</a></li>
+                <li><a class="dropdown-item" href="#">Another action</a></li>
+                <li><a class="dropdown-item" href="#">Something else here</a></li>
+                <li>
+                    <hr class="dropdown-divider" />
+                </li>
+                <li><a class="dropdown-item" href="#">Separated link</a></li>
+            </ul>
+            <input type="text" class="form-control" aria-label="Text input with segmented dropdown button" />
+        </div>
+
+    </main>
+    <footer>
+        <!-- place footer here -->
+    </footer>
+    <!-- Bootstrap JavaScript Libraries -->
+    <script src="https://cdn.jsdelivr.net/npm/@popperjs/core@2.11.8/dist/umd/popper.min.js"
+        integrity="sha384-I7E8VVD/ismYTF4hNIPjVp/Zjvgyol6VFvRkX/vR+Vc4jQkC+hVqc2pM8ODewa9r"
+        crossorigin="anonymous"></script>
+
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.2/dist/js/bootstrap.min.js"
+        integrity="sha384-BBtl+eGJRgqQAUMxJ7pMwbEyER4l1g+O15P+16Ep7Q9Q+zqX6gSbd85u4mG4QzX+"
+        crossorigin="anonymous"></script>
+</body>
+
+</html>

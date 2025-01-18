@@ -1,0 +1,70 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+</head>
+
+<body>
+    <p id="myp1">
+        msg
+    </p>
+
+    <button id="setTime">Set Time</button>
+    <button id="clearTime">Clear Time</button>
+    <button id="setInterval">Set Interval</button>
+    <button id="clearInterval">Clear Interval</button>
+
+    <script>
+        var timeID;
+        var intervalID;
+        var ctr = 0;
+
+        var btns = document.getElementsByTagName("button");
+        for (i = 0; i < btns.length; i++) {
+            btns[i].addEventListener("click", handleButtonPress);
+        };
+
+        function handleButtonPress(e) {
+            switch (e.target.id) {
+                case "setTime":
+                    timeID = window.setTimeout(() => {
+                        console.log("Timeout Expired");
+                        showMSG("Timeout Expired");
+                    }, 1000);
+                    showMSG("Timeout Set");
+                    break;
+
+                case "clearTime":
+                    window.clearTimeout(timeID);
+                    showMSG("Timeout Clear");
+                    break;
+
+                case "setInterval":
+                    intervalID = window.setInterval(() => {
+                        ctr++;
+                        console.log("Interval Expired " + ctr);
+                        showMSG("Interval Expired " + ctr);
+                    }, 1000);
+                    showMSG("interval Set");
+                    break;
+
+                case "clearInterval":
+                    window.clearInterval(intervalID);
+                    showMSG("interval Clear");
+                    break;
+
+                default:
+                    break;
+            }
+        };
+
+        function showMSG(msg) {
+            document.getElementById("myp1").innerHTML = msg;
+        }
+    </script>
+</body>
+
+</html>
