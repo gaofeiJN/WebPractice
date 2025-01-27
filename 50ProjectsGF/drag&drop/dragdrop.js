@@ -56,6 +56,7 @@ function handleDragLeave(e) {
 }
 
 function handleDrop(e) {
+  console.log(e);
   console.log("drop.target : " + e.target.getAttribute("id"));
 
   e.target.appendChild(draggedItem);

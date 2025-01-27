@@ -13,9 +13,9 @@
     </section>
 
     <script>
-        window.addEventListener("message", recerveMessage);
+        window.addEventListener("message", receiveMessage);
 
-        function recerveMessage(e) {
+        function receiveMessage(e) {
             document.writeln(e.data.toString());
             document.writeln(e.origin);
             document.writeln(e.window.toString());
