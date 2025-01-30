@@ -46,3 +46,27 @@ async function fun2() {
 }
 
 fun2();
+
+// 使用访问器属性
+console.log('---get()----------');
+let obj3={
+    get time(){
+        return new Date().toLocaleTimeString();
+    }
+}
+
+console.log(obj3.time);            // 22:13:48
+console.log(obj3);                 // 22:13:48
+
+async function fun3() {
+    await new Promise((resolve) => {
+        setTimeout(() => {
+            console.log('---get() : sleep 3000ms---');
+            resolve();
+        }, 3000);
+    });
+    console.log(obj3.time);        // 22:13:51
+    console.log(obj3);             // 22:13:51
+}
+
+fun3();

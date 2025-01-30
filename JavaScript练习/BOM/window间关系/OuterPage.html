@@ -1,0 +1,47 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>Title</title>
+    <style>
+
+        body{
+            margin: 0;
+            width: 100%;
+            height: 100%;
+        }
+
+        iframe{
+            width: 80dvw;
+            height: 80dvh;
+        }
+    </style>
+</head>
+<body>
+  <div>
+    <h2>OuterPage</h2>
+    <iframe src="MiddlePage.html"></iframe>
+      <script>
+          // console.log('---OuterPage----');
+          // console.log(window);
+          // console.log(window.self);
+          // console.log(window.top);
+          // console.log(window.parent);
+          // console.log(window.parent.parent);
+          console.log('---OuterPage window----');
+          console.log(window == window.self);     // true
+          console.log(window == window.top);      // true
+          console.log(window == window.parent);   // true
+          console.log(window == window.parent.parent);    // true;
+          console.log('---OuterPage window.parent----');
+          console.log(window.parent == window.top);     // true
+          console.log(window.parent == window.parent.parent);     // true
+          console.log('---OuterPage window.parent.parent----');
+          console.log(window.parent.parent == window.top);     // true
+
+          // NewPage
+          window.open('./NewPage.html', '_blank');
+      </script>
+  </div>
+</body>
+</html>

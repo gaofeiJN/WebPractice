@@ -1,0 +1,28 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>Title</title>
+</head>
+<body>
+<h3>InnerPage</h3>
+<script>
+    // console.log('---InnerPage----');
+    // console.log(window);
+    // console.log(window.self);
+    // console.log(window.top);
+    // console.log(window.parent);
+    // console.log(window.parent.parent);
+    console.log('---InnerPage window----');
+    console.log(window == window.self);     // true
+    console.log(window == window.top);      // false
+    console.log(window == window.parent);   // false
+    console.log(window == window.parent.parent);    // false;
+    console.log('---InnerPage window.parent----');
+    console.log(window.parent == window.top);     // false
+    console.log(window.parent == window.parent.parent);     // false
+    console.log('---InnerPage window.parent.parent----');
+    console.log(window.parent.parent == window.top);     // true
+</script>
+</body>
+</html>

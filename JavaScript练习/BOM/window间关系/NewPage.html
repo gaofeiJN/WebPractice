@@ -1,0 +1,31 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>Title</title>
+</head>
+<body>
+
+<h3>NewPage</h3>
+<script>
+  // console.log('---NewPage----');
+  // console.log(window);
+  // console.log(window.self);
+  // console.log(window.top);
+  // console.log(window.parent);
+  // console.log(window.parent.parent);
+  console.log('---NewPage window----');
+  console.log(window == window.self);     // true
+  console.log(window == window.top);      // true
+  console.log(window == window.parent);   // true
+  console.log(window == window.parent.parent);    // true;
+  console.log('---NewPage window.parent----');
+  console.log(window.parent == window.top);     // true
+  console.log(window.parent == window.parent.parent);     // true
+  console.log('---NewPage window.parent.parent----');
+  console.log(window.parent.parent == window.top);     // true
+  console.log('---NewPage window.opener----');
+  console.log(window.opener);     // Window {0: Window, window: Window, self: Window, document: document, name: '', location: Location, …}
+</script>
+</body>
+</html>
