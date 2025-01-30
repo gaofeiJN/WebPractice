@@ -1,0 +1,299 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="AutoImportSettings">
+    <option name="autoReloadType" value="SELECTIVE" />
+  </component>
+  <component name="ChangeListManager">
+    <list default="true" id="c3e039c4-fb84-4a65-9cf7-bef73ce9568c" name="Changes" comment="2025.01.24 练习 &#10;Array,Map,Set,Proxy" />
+    <option name="SHOW_DIALOG" value="false" />
+    <option name="HIGHLIGHT_CONFLICTS" value="true" />
+    <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
+    <option name="LAST_RESOLUTION" value="IGNORE" />
+  </component>
+  <component name="FileTemplateManagerImpl">
+    <option name="RECENT_TEMPLATES">
+      <list>
+        <option value="CSS File" />
+        <option value="HTML File" />
+        <option value="JavaScript File" />
+      </list>
+    </option>
+  </component>
+  <component name="Git.Settings">
+    <option name="RECENT_BRANCH_BY_REPOSITORY">
+      <map>
+        <entry key="$PROJECT_DIR$" value="83b30c3a58e352a264c089c969e75d72983544e7" />
+      </map>
+    </option>
+    <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$" />
+    <option name="RESET_MODE" value="MIXED" />
+  </component>
+  <component name="GitHubPullRequestSearchHistory">{
+  &quot;lastFilter&quot;: {
+    &quot;state&quot;: &quot;OPEN&quot;,
+    &quot;assignee&quot;: &quot;gaofeiJN&quot;
+  }
+}</component>
+  <component name="GithubPullRequestsUISettings">{
+  &quot;selectedUrlAndAccountId&quot;: {
+    &quot;url&quot;: &quot;https://github.com/gaofeiJN/WebPractice.git&quot;,
+    &quot;accountId&quot;: &quot;42b4ffa3-ab0d-4a34-9d87-a721f2c7432c&quot;
+  }
+}</component>
+  <component name="ProblemsViewState">
+    <option name="selectedTabId" value="ProjectErrors" />
+  </component>
+  <component name="ProjectColorInfo">{
+  &quot;associatedIndex&quot;: 8
+}</component>
+  <component name="ProjectId" id="2rLNwpbDbakOsYZq2F0LIOwnfK1" />
+  <component name="ProjectViewState">
+    <option name="hideEmptyMiddlePackages" value="true" />
+    <option name="showLibraryContents" value="true" />
+  </component>
+  <component name="PropertiesComponent">{
+  &quot;keyToString&quot;: {
+    &quot;DefaultHtmlFileTemplate&quot;: &quot;HTML File&quot;,
+    &quot;JavaScript Debug.DrinkWater.html.executor&quot;: &quot;Debug&quot;,
+    &quot;Node.js.DrinkWater.js.executor&quot;: &quot;Debug&quot;,
+    &quot;Node.js.variant.js.executor&quot;: &quot;Debug&quot;,
+    &quot;RunOnceActivity.ShowReadmeOnStart&quot;: &quot;true&quot;,
+    &quot;RunOnceActivity.git.unshallow&quot;: &quot;true&quot;,
+    &quot;git-widget-placeholder&quot;: &quot;main&quot;,
+    &quot;kotlin-language-version-configured&quot;: &quot;true&quot;,
+    &quot;last_opened_file_path&quot;: &quot;E:/SRC&quot;,
+    &quot;list.type.of.created.stylesheet&quot;: &quot;CSS&quot;,
+    &quot;node.js.detected.package.eslint&quot;: &quot;true&quot;,
+    &quot;node.js.detected.package.tslint&quot;: &quot;true&quot;,
+    &quot;node.js.selected.package.eslint&quot;: &quot;(autodetect)&quot;,
+    &quot;node.js.selected.package.tslint&quot;: &quot;(autodetect)&quot;,
+    &quot;nodejs_package_manager_path&quot;: &quot;npm&quot;,
+    &quot;settings.editor.selected.configurable&quot;: &quot;preferences.keymap&quot;,
+    &quot;vue.rearranger.settings.migration&quot;: &quot;true&quot;
+  }
+}</component>
+  <component name="RecentsManager">
+    <key name="CopyFile.RECENT_KEYS">
+      <recent name="E:\SRC\WebPractice\50ProjectsGF\double-click-heart" />
+    </key>
+    <key name="MoveFile.RECENT_KEYS">
+      <recent name="E:\SRC\WebPractice\JavaScript练习" />
+      <recent name="E:\SRC\WebPractice\html练习" />
+      <recent name="E:\SRC\WebPractice\CSS练习" />
+    </key>
+  </component>
+  <component name="RunManager">
+    <configuration name="variant.js" type="NodeJSConfigurationType" temporary="true" nameIsGenerated="true" path-to-js-file="$PROJECT_DIR$/JavaScript练习/变量/variant.js" working-dir="$PROJECT_DIR$/JavaScript练习/变量">
+      <method v="2" />
+    </configuration>
+    <recent_temporary>
+      <list>
+        <item itemvalue="Node.js.variant.js" />
+        <item itemvalue="Node.js.variant.js" />
+        <item itemvalue="Node.js.variant.js" />
+        <item itemvalue="Node.js.variant.js" />
+        <item itemvalue="Node.js.variant.js" />
+      </list>
+    </recent_temporary>
+  </component>
+  <component name="SharedIndexes">
+    <attachedChunks>
+      <set>
+        <option value="bundled-js-predefined-d6986cc7102b-deb605915726-JavaScript-WS-243.22562.222" />
+      </set>
+    </attachedChunks>
+  </component>
+  <component name="SpellCheckerSettings" RuntimeDictionaries="0" Folders="0" CustomDictionaries="0" DefaultDictionary="application-level" UseSingleDictionary="true" transferred="true" />
+  <component name="TaskManager">
+    <task active="true" id="Default" summary="Default task">
+      <changelist id="c3e039c4-fb84-4a65-9cf7-bef73ce9568c" name="Changes" comment="" />
+      <created>1736334636216</created>
+      <option name="number" value="Default" />
+      <option name="presentableId" value="Default" />
+      <updated>1736334636216</updated>
+      <workItem from="1736334637560" duration="7199000" />
+      <workItem from="1736422134911" duration="8985000" />
+      <workItem from="1736506554558" duration="10958000" />
+      <workItem from="1736552790355" duration="19292000" />
+      <workItem from="1736644944940" duration="1914000" />
+      <workItem from="1736647056317" duration="1391000" />
+      <workItem from="1737162592427" duration="1692000" />
+      <workItem from="1737177396985" duration="6405000" />
+      <workItem from="1737184979005" duration="146000" />
+      <workItem from="1737185822508" duration="475000" />
+      <workItem from="1737186522223" duration="3416000" />
+      <workItem from="1737194202402" duration="1000" />
+      <workItem from="1737194219283" duration="4715000" />
+      <workItem from="1737252810162" duration="16068000" />
+      <workItem from="1737375670446" duration="3051000" />
+      <workItem from="1737459338037" duration="6166000" />
+      <workItem from="1737545883216" duration="1069000" />
+      <workItem from="1737547437896" duration="8477000" />
+      <workItem from="1737636449883" duration="5418000" />
+      <workItem from="1737719872308" duration="8081000" />
+      <workItem from="1737729013663" duration="27000" />
+    </task>
+    <task id="LOCAL-00001" summary="2025.01.08 练习 &#10;transition 过渡&#10;animation  动画&#10;transform  变换">
+      <option name="closed" value="true" />
+      <created>1736345862931</created>
+      <option name="number" value="00001" />
+      <option name="presentableId" value="LOCAL-00001" />
+      <option name="project" value="LOCAL" />
+      <updated>1736345862931</updated>
+    </task>
+    <task id="LOCAL-00002" summary="2025.01.18 练习 &#10;词法环境与上下文">
+      <option name="closed" value="true" />
+      <created>1737184502677</created>
+      <option name="number" value="00002" />
+      <option name="presentableId" value="LOCAL-00002" />
+      <option name="project" value="LOCAL" />
+      <updated>1737184502678</updated>
+    </task>
+    <task id="LOCAL-00003" summary="2025.01.18 练习 &#10;词法环境与上下文">
+      <option name="closed" value="true" />
+      <created>1737185012541</created>
+      <option name="number" value="00003" />
+      <option name="presentableId" value="LOCAL-00003" />
+      <option name="project" value="LOCAL" />
+      <updated>1737185012541</updated>
+    </task>
+    <task id="LOCAL-00004" summary="2025.01.18 练习 &#10;重新整理">
+      <option name="closed" value="true" />
+      <created>1737186813902</created>
+      <option name="number" value="00004" />
+      <option name="presentableId" value="LOCAL-00004" />
+      <option name="project" value="LOCAL" />
+      <updated>1737186813902</updated>
+    </task>
+    <task id="LOCAL-00005" summary="2025.01.18 练习 &#10;重新整理">
+      <option name="closed" value="true" />
+      <created>1737186830705</created>
+      <option name="number" value="00005" />
+      <option name="presentableId" value="LOCAL-00005" />
+      <option name="project" value="LOCAL" />
+      <updated>1737186830705</updated>
+    </task>
+    <task id="LOCAL-00006" summary="2025.01.18 练习 &#10;重新整理">
+      <option name="closed" value="true" />
+      <created>1737186898783</created>
+      <option name="number" value="00006" />
+      <option name="presentableId" value="LOCAL-00006" />
+      <option name="project" value="LOCAL" />
+      <updated>1737186898783</updated>
+    </task>
+    <task id="LOCAL-00007" summary="2025.01.18 练习 &#10;重新整理">
+      <option name="closed" value="true" />
+      <created>1737194227990</created>
+      <option name="number" value="00007" />
+      <option name="presentableId" value="LOCAL-00007" />
+      <option name="project" value="LOCAL" />
+      <updated>1737194227990</updated>
+    </task>
+    <task id="LOCAL-00008" summary="2025.01.18 练习 &#10;重新整理">
+      <option name="closed" value="true" />
+      <created>1737204597925</created>
+      <option name="number" value="00008" />
+      <option name="presentableId" value="LOCAL-00008" />
+      <option name="project" value="LOCAL" />
+      <updated>1737204597925</updated>
+    </task>
+    <task id="LOCAL-00009" summary="2025.01.18 练习 &#10;重新整理">
+      <option name="closed" value="true" />
+      <created>1737204724459</created>
+      <option name="number" value="00009" />
+      <option name="presentableId" value="LOCAL-00009" />
+      <option name="project" value="LOCAL" />
+      <updated>1737204724459</updated>
+    </task>
+    <task id="LOCAL-00010" summary="2025.01.19 练习 &#10;对象">
+      <option name="closed" value="true" />
+      <created>1737296705771</created>
+      <option name="number" value="00010" />
+      <option name="presentableId" value="LOCAL-00010" />
+      <option name="project" value="LOCAL" />
+      <updated>1737296705771</updated>
+    </task>
+    <task id="LOCAL-00011" summary="2025.01.24 练习 &#10;Array,Map,Set,Proxy">
+      <option name="closed" value="true" />
+      <created>1737728839488</created>
+      <option name="number" value="00011" />
+      <option name="presentableId" value="LOCAL-00011" />
+      <option name="project" value="LOCAL" />
+      <updated>1737728839488</updated>
+    </task>
+    <task id="LOCAL-00012" summary="2025.01.24 练习 &#10;Array,Map,Set,Proxy">
+      <option name="closed" value="true" />
+      <created>1737729026829</created>
+      <option name="number" value="00012" />
+      <option name="presentableId" value="LOCAL-00012" />
+      <option name="project" value="LOCAL" />
+      <updated>1737729026829</updated>
+    </task>
+    <option name="localTasksCounter" value="13" />
+    <servers />
+  </component>
+  <component name="TypeScriptGeneratedFilesManager">
+    <option name="version" value="3" />
+  </component>
+  <component name="Vcs.Log.Tabs.Properties">
+    <option name="RECENT_FILTERS">
+      <map>
+        <entry key="Branch">
+          <value>
+            <list>
+              <RecentGroup>
+                <option name="FILTER_VALUES">
+                  <option value="main" />
+                </option>
+              </RecentGroup>
+              <RecentGroup>
+                <option name="FILTER_VALUES">
+                  <option value="HEAD" />
+                </option>
+              </RecentGroup>
+              <RecentGroup>
+                <option name="FILTER_VALUES">
+                  <option value="origin/main" />
+                </option>
+              </RecentGroup>
+              <RecentGroup>
+                <option name="FILTER_VALUES">
+                  <option value="master" />
+                </option>
+              </RecentGroup>
+            </list>
+          </value>
+        </entry>
+      </map>
+    </option>
+    <option name="TAB_STATES">
+      <map>
+        <entry key="MAIN">
+          <value>
+            <State>
+              <option name="FILTERS">
+                <map>
+                  <entry key="branch">
+                    <value>
+                      <list>
+                        <option value="main" />
+                      </list>
+                    </value>
+                  </entry>
+                </map>
+              </option>
+            </State>
+          </value>
+        </entry>
+      </map>
+    </option>
+  </component>
+  <component name="VcsManagerConfiguration">
+    <MESSAGE value="2025.01.08 练习 &#10;transition 过渡&#10;animation  动画&#10;transform  变换" />
+    <MESSAGE value="2025.01.18 练习 &#10;词法环境与上下文" />
+    <MESSAGE value="2025.01.18 练习 &#10;重新整理" />
+    <MESSAGE value="2025.01.19 练习 &#10;对象" />
+    <MESSAGE value="2025.01.24 练习 &#10;Array,Map,Set,Proxy" />
+    <option name="LAST_COMMIT_MESSAGE" value="2025.01.24 练习 &#10;Array,Map,Set,Proxy" />
+  </component>
+</project>
