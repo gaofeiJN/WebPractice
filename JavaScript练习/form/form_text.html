@@ -1,0 +1,29 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>Title</title>
+    <style>
+        input:valid{
+            background-color: lightgreen;
+        }
+        input:invalid{
+            background-color: lightcoral;
+        }
+    </style>
+</head>
+<body>
+<form action="" method="get" target="" name="form1" id="form">
+    <label for="in1">输入名字</label>
+    <input type="text" name="input1" id="in1" value="输入名字" size="20" maxlength="40"><br>
+    <label for="in2">输入数字</label>
+    <input type="text" name="input2" id="in2" value="" size="20" maxlength="40" pattern="\d+""><br>
+    <hr>
+    <textarea name="textarea1" id="textarea1" cols="50" rows="10">请输入自我介绍。</textarea>
+</form>
+<!--<script src="form_text_select事件.js"></script>-->
+<!--<script src="./form_text_过滤输入字符.js"></script>-->
+<!--<script src="./form_text_剪切板.js"></script>-->
+<script src="./form_text_pattern.js"></script>
+</body>
+</html>

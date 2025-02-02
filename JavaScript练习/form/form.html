@@ -1,0 +1,42 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>Title</title>
+</head>
+<body>
+<form action="" method="get" target="" name="form1" id="form">
+    <label for="in1">输入名字</label><input type="text" name="input1" id="in1" placeholder="输入名字" list="list1"><br>
+    <datalist id="list1">
+        <option value="apple">苹果</option>
+        <option value="orange">橘子</option>
+        <option value="banana">香蕉</option>
+    </datalist>
+    <label for="in2">输入数字</label><input type="number" name="input2" id="in2" value="123"><br>
+    <label for="sel1">选择信息</label><select name="select1" id="sel1">
+        <optgroup label="城市">
+            <option value="jinan">济南</option>
+            <option value="tai an">泰安</option>
+            <option value="beijing">北京</option>
+        </optgroup>
+        <optgroup label="省份">
+            <option value="shandong">山东</option>
+            <option value="hebei">河北</option>
+            <option value="jiangsu">江苏</option>
+        </optgroup>
+    </select><br>
+
+    <fieldset>
+        <input type="radio" name="radio1" id="radio11" value="apple" checked><label for="radio11">apple</label>
+        <input type="radio" name="radio1" id="radio12" value="banana"><label for="radio12">banana</label>
+        <input type="radio" name="radio1" id="radio13" value="peach"><label for="radio13">peach</label>
+    </fieldset>
+
+    <input type="submit" name="input3" id="in3">
+    <input type="reset" name="input4" id="in4">
+    <input type="image" src="./2.webp" name="input5" id="in5" alt="图片加载失败！">
+    <button type="submit" name="btn1" id="btn">submit</button>
+</form>
+<script src="form.js"></script>
+</body>
+</html>
