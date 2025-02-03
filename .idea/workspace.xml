@@ -4,37 +4,24 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="9d16ac72-89e7-40d3-a4d3-9bbedbe3b8ce" name="Changes" comment="2025.01.30&#10;事件">
-      <change afterPath="$PROJECT_DIR$/JavaScript练习/FileAPI/file.html" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/JavaScript练习/FileAPI/file_FileReader.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/JavaScript练习/FileAPI/file_file.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/JavaScript练习/FileAPI/src/hello.txt" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/JavaScript练习/FileAPI/src/猫咪.webp" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/JavaScript练习/canvas/canvas.html" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/JavaScript练习/canvas/canvas_arcTo.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/JavaScript练习/canvas/canvas_bezierCurveTo.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/JavaScript练习/canvas/canvas_path.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/JavaScript练习/canvas/canvas_pattern.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/JavaScript练习/canvas/canvas_quadraticCurveTo.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/JavaScript练习/canvas/canvas_rect.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/JavaScript练习/canvas/canvas_text.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/JavaScript练习/canvas/canvas_径向渐变.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/JavaScript练习/canvas/canvas_线性渐变.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/JavaScript练习/form/1.webp" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/JavaScript练习/form/2.webp" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/JavaScript练习/form/form.html" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/JavaScript练习/form/form.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/JavaScript练习/form/form_select.html" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/JavaScript练习/form/form_select.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/JavaScript练习/form/form_text.html" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/JavaScript练习/form/form_text_pattern.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/JavaScript练习/form/form_text_select事件.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/JavaScript练习/form/form_text_剪切板.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/JavaScript练习/form/form_text_过滤输入字符.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/JavaScript练习/动画/动画.html" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/JavaScript练习/动画/动画.js" afterDir="false" />
+    <list default="true" id="9d16ac72-89e7-40d3-a4d3-9bbedbe3b8ce" name="Changes" comment="2025.02.02&#10;canvas&#10;表单DOM&#10;文件API">
+      <change afterPath="$PROJECT_DIR$/JavaScript练习/DragDrop/2.webp" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/JavaScript练习/DragDrop/dragdrop.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/JavaScript练习/DragDrop/drop_dataTransfer.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/JavaScript练习/FileAPI/file_FileReaderSync.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/JavaScript练习/FileAPI/file_createObjectURL.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/JavaScript练习/Notification/2.webp" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/JavaScript练习/Notification/Notification.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/JavaScript练习/Notification/Notification.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/JavaScript练习/Notification/Notification_PageVisibility.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/JavaScript练习/Stream/ReadableStream.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/JavaScript练习/Stream/ReadableStream.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/JavaScript练习/Stream/ReadableStream_MDN_sample.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/JavaScript练习/Stream/ReadableStream_MDN_sample.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/JavaScript练习/Stream/ReadableStream_readafter.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/JavaScript练习/media/media.txt" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/html练习/form.html" beforeDir="false" afterPath="$PROJECT_DIR$/html练习/form.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/JavaScript练习/FileAPI/file.html" beforeDir="false" afterPath="$PROJECT_DIR$/JavaScript练习/FileAPI/file.html" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -44,8 +31,8 @@
   <component name="FileTemplateManagerImpl">
     <option name="RECENT_TEMPLATES">
       <list>
-        <option value="HTML File" />
         <option value="HTTP Request" />
+        <option value="HTML File" />
         <option value="JavaScript File" />
       </list>
     </option>
@@ -80,7 +67,7 @@
     "RunOnceActivity.ShowReadmeOnStart": "true",
     "RunOnceActivity.git.unshallow": "true",
     "git-widget-placeholder": "main",
-    "last_opened_file_path": "E:/SRC/webpractice/JavaScript练习/FileAPI/src",
+    "last_opened_file_path": "E:/SRC/webpractice/JavaScript练习/Notification",
     "node.js.detected.package.eslint": "true",
     "node.js.detected.package.tslint": "true",
     "node.js.selected.package.eslint": "(autodetect)",
@@ -92,15 +79,17 @@
 }]]></component>
   <component name="RecentsManager">
     <key name="CopyFile.RECENT_KEYS">
+      <recent name="E:\SRC\webpractice\JavaScript练习\Notification" />
+      <recent name="E:\SRC\webpractice\JavaScript练习\DragDrop" />
       <recent name="E:\SRC\webpractice\JavaScript练习\FileAPI\src" />
       <recent name="E:\SRC\webpractice\JavaScript练习\form" />
     </key>
     <key name="MoveFile.RECENT_KEYS">
+      <recent name="E:\SRC\webpractice\JavaScript练习\media\resources" />
       <recent name="E:\SRC\webpractice\JavaScript练习\FileAPI\src" />
       <recent name="E:\SRC\webpractice\JavaScript练习\dom" />
       <recent name="E:\SRC\webpractice\JavaScript练习\dom\bkup" />
       <recent name="E:\SRC\webpractice\JavaScript练习\BOM\window间关系" />
-      <recent name="E:\SRC\webpractice\CSS练习" />
     </key>
   </component>
   <component name="SharedIndexes">
@@ -125,7 +114,9 @@
       <workItem from="1738137720228" duration="5628000" />
       <workItem from="1738220831422" duration="10383000" />
       <workItem from="1738381963193" duration="8756000" />
-      <workItem from="1738467399360" duration="18231000" />
+      <workItem from="1738467399360" duration="19129000" />
+      <workItem from="1738548795515" duration="3296000" />
+      <workItem from="1738559144985" duration="17597000" />
     </task>
     <task id="LOCAL-00001" summary="2025.01.27&#10;整理">
       <option name="closed" value="true" />
@@ -151,7 +142,15 @@
       <option name="project" value="LOCAL" />
       <updated>1738244795462</updated>
     </task>
-    <option name="localTasksCounter" value="4" />
+    <task id="LOCAL-00004" summary="2025.02.02&#10;canvas&#10;表单DOM&#10;文件API">
+      <option name="closed" value="true" />
+      <created>1738506791497</created>
+      <option name="number" value="00004" />
+      <option name="presentableId" value="LOCAL-00004" />
+      <option name="project" value="LOCAL" />
+      <updated>1738506791497</updated>
+    </task>
+    <option name="localTasksCounter" value="5" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -160,7 +159,8 @@
   <component name="VcsManagerConfiguration">
     <MESSAGE value="2025.01.27&#10;整理" />
     <MESSAGE value="2025.01.30&#10;事件" />
-    <option name="LAST_COMMIT_MESSAGE" value="2025.01.30&#10;事件" />
+    <MESSAGE value="2025.02.02&#10;canvas&#10;表单DOM&#10;文件API" />
+    <option name="LAST_COMMIT_MESSAGE" value="2025.02.02&#10;canvas&#10;表单DOM&#10;文件API" />
   </component>
   <component name="XDebuggerManager">
     <breakpoint-manager>
