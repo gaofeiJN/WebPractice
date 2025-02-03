@@ -4,25 +4,7 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="9d16ac72-89e7-40d3-a4d3-9bbedbe3b8ce" name="Changes" comment="2025.02.02&#10;canvas&#10;表单DOM&#10;文件API">
-      <change afterPath="$PROJECT_DIR$/JavaScript练习/DragDrop/2.webp" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/JavaScript练习/DragDrop/dragdrop.html" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/JavaScript练习/DragDrop/drop_dataTransfer.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/JavaScript练习/FileAPI/file_FileReaderSync.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/JavaScript练习/FileAPI/file_createObjectURL.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/JavaScript练习/Notification/2.webp" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/JavaScript练习/Notification/Notification.html" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/JavaScript练习/Notification/Notification.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/JavaScript练习/Notification/Notification_PageVisibility.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/JavaScript练习/Stream/ReadableStream.html" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/JavaScript练习/Stream/ReadableStream.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/JavaScript练习/Stream/ReadableStream_MDN_sample.html" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/JavaScript练习/Stream/ReadableStream_MDN_sample.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/JavaScript练习/Stream/ReadableStream_readafter.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/JavaScript练习/media/media.txt" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/JavaScript练习/FileAPI/file.html" beforeDir="false" afterPath="$PROJECT_DIR$/JavaScript练习/FileAPI/file.html" afterDir="false" />
-    </list>
+    <list default="true" id="9d16ac72-89e7-40d3-a4d3-9bbedbe3b8ce" name="Changes" comment="2025.02.03&#10;dragdrop&#10;notification&#10;ReadableStream" />
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
     <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
@@ -116,7 +98,7 @@
       <workItem from="1738381963193" duration="8756000" />
       <workItem from="1738467399360" duration="19129000" />
       <workItem from="1738548795515" duration="3296000" />
-      <workItem from="1738559144985" duration="17597000" />
+      <workItem from="1738559144985" duration="17664000" />
     </task>
     <task id="LOCAL-00001" summary="2025.01.27&#10;整理">
       <option name="closed" value="true" />
@@ -150,7 +132,15 @@
       <option name="project" value="LOCAL" />
       <updated>1738506791497</updated>
     </task>
-    <option name="localTasksCounter" value="5" />
+    <task id="LOCAL-00005" summary="2025.02.03&#10;dragdrop&#10;notification&#10;ReadableStream">
+      <option name="closed" value="true" />
+      <created>1738592443453</created>
+      <option name="number" value="00005" />
+      <option name="presentableId" value="LOCAL-00005" />
+      <option name="project" value="LOCAL" />
+      <updated>1738592443453</updated>
+    </task>
+    <option name="localTasksCounter" value="6" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -160,7 +150,8 @@
     <MESSAGE value="2025.01.27&#10;整理" />
     <MESSAGE value="2025.01.30&#10;事件" />
     <MESSAGE value="2025.02.02&#10;canvas&#10;表单DOM&#10;文件API" />
-    <option name="LAST_COMMIT_MESSAGE" value="2025.02.02&#10;canvas&#10;表单DOM&#10;文件API" />
+    <MESSAGE value="2025.02.03&#10;dragdrop&#10;notification&#10;ReadableStream" />
+    <option name="LAST_COMMIT_MESSAGE" value="2025.02.03&#10;dragdrop&#10;notification&#10;ReadableStream" />
   </component>
   <component name="XDebuggerManager">
     <breakpoint-manager>
