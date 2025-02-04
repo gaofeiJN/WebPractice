@@ -1,0 +1,56 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>Title</title>
+    <style>
+        p {
+            color: blue;
+        }
+
+        button {
+            display: block;
+            border: thin solid lightcoral;
+            background-color: white;
+            color: lightcoral;
+        }
+    </style>
+</head>
+<body>
+<div id="host">
+    <!--  影子DOM以外的元素在默认情况下不会渲染在页面上
+          可以在影子DOM中添加槽位<slot>，使得外部元素可以渲染在页面上
+          1. 外部元素按照外部的式样表渲染
+          2. 外部元素没有指定slot的name情况下，所有外部元素会按照原DOM树结构渲染在slot所在的位置，只有第一个slot有效
+          3. 外部元素如果指定了slot的name，则按照指定的slot的位置渲染外部元素
+          4. slot是与host的子代元素对应的 ？？？
+             在影子DOM的slot中嵌套slot，或者在host的非子代元素中指定slot name都没有效果
+    -->
+    <p>影子DOM外元素1</p>
+    <div slot="div">
+        <p slot="inner1"><strong>影子DOM</strong>外元素2</p>
+        <button slot="inner2">button</button>
+    </div>
+</div>
+<p>Hello World</p>
+
+<template id="template">
+    <style>
+        p{
+            color: red;
+        }
+    </style>
+    <p>影子DOM元素1</p>
+    <div>
+        <p>影子DOM元素2</p>
+    </div>
+    <slot name="div">
+        <slot name="inner1"></slot>
+        <slot name="inner2"></slot>
+    </slot>
+    <slot></slot>
+</template>
+
+<script src="ShadowDOM.js"></script>
+</body>
+</html>

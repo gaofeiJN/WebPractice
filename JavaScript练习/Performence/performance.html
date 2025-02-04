@@ -1,0 +1,31 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>Title</title>
+</head>
+<body>
+
+<script>
+    // window.performance.now()
+    // 当执行上下文创建时，计时器从0开始计时，调用window.performance.now()方法返回计时的相对事件，
+    // 返回值为一个微秒精度的浮点数值
+    let time1 = window.performance.now();
+
+    for (let i = 1; i <= 1000; i++) {
+        let value = i *      5 + 123;
+    }
+
+    let time2 = window.performance.now();
+    console.log(time1);
+    console.log(time2);
+    console.log(time2 - time1);
+    console.log('----------');
+
+    // window.performance.timeOrigin : 执行上下文创建时的绝对时间
+    let time0 = window.performance.timeOrigin;
+    console.log(time0);
+    console.log(time0 + time2);
+</script>
+</body>
+</html>

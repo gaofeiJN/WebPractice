@@ -1,0 +1,38 @@
+<!--<!DOCTYPE html>-->
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>Title</title>
+</head>
+<body>
+<div id="container">
+
+</div>
+
+<script>
+    let frag1 = document.createDocumentFragment();
+
+    // DocumentFragment节点上没有innerHTML和innerText
+    let p1 = document.createElement('p');
+    p1.innerText = '香蕉';
+    let p2 = document.createElement('p');
+    p2.innerText = '苹果';
+    let p3 = document.createElement('p');
+    p3.innerText = '草莓';
+    frag1.appendChild(p1);
+    frag1.appendChild(p2);
+    frag1.appendChild(p3);
+
+    let container = document.getElementById('container');
+    container.appendChild(frag1);
+
+    //
+    let frag2 = new DocumentFragment();
+    frag2.appendChild(p1);
+    frag2.appendChild(p2);
+    frag2.appendChild(p3);
+    container.appendChild(frag2);
+
+</script>
+</body>
+</html>

@@ -1,0 +1,58 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>Title</title>
+    <style>
+        button {
+            display: block;
+        }
+    </style>
+</head>
+<body>
+<div id="host">
+    <hr>
+    <button id="outer">outer</button>
+</div>
+
+<template id="template">
+    <style>
+        button {
+            display: block;
+        }
+    </style>
+    <button id="inner">inner</button>
+    <slot></slot>
+</template>
+
+<script>
+    // 创建影子DOM
+    const host = document.querySelector('#host');
+    let shadow = host.attachShadow({mode: 'open',});
+    let fragment = document.querySelector('template').content;
+    shadow.appendChild(fragment);
+
+    // 影子DOM元素的事件监听器
+    // 影子DOM边界内部，event.target为实际触发event的元素
+    // 影子DOM边界内部，event.target为shadowHost元素
+    const inner = shadow.querySelector('#inner');
+    inner.onclick = function (event) {
+        console.log('inner on click');
+        console.log('event.target : ' + event.target.id);
+    }
+
+    // 影子DOM外部元素的事件监听器
+    const outer = document.querySelector('#outer');
+    outer.onclick = function (event) {
+        console.log('outer on click');
+        console.log('event.target : ' + event.target.id);
+    }
+
+    // 影子宿主的事件监听器
+    host.onclick = function (event) {
+        console.log('host onclick');
+        console.log('event.target : ' + event.target.id);
+    }
+</script>
+</body>
+</html>

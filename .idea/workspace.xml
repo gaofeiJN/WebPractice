@@ -4,7 +4,22 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="9d16ac72-89e7-40d3-a4d3-9bbedbe3b8ce" name="Changes" comment="2025.02.03&#10;dragdrop&#10;notification&#10;ReadableStream" />
+    <list default="true" id="9d16ac72-89e7-40d3-a4d3-9bbedbe3b8ce" name="Changes" comment="2025.02.03&#10;dragdrop&#10;notification&#10;ReadableStream">
+      <change afterPath="$PROJECT_DIR$/JavaScript练习/Performence/performance.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/JavaScript练习/Stream/ReadableStream_pipe.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/JavaScript练习/Stream/ReadableStream_pipeThrough.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/JavaScript练习/Stream/ReadableStream_pipeTo.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/JavaScript练习/Stream/TransformStream.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/JavaScript练习/Stream/TransformStream.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/JavaScript练习/Stream/WritableStream.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/JavaScript练习/Stream/WritableStream.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/JavaScript练习/Web组件/DocumentFragment.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/JavaScript练习/Web组件/DocumentFragment2.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/JavaScript练习/Web组件/ShadowDOM.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/JavaScript练习/Web组件/ShadowDOM.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/JavaScript练习/Web组件/ShadowDOM_event.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+    </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
     <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
@@ -14,8 +29,8 @@
     <option name="RECENT_TEMPLATES">
       <list>
         <option value="HTTP Request" />
-        <option value="HTML File" />
         <option value="JavaScript File" />
+        <option value="HTML File" />
       </list>
     </option>
   </component>
@@ -49,7 +64,7 @@
     "RunOnceActivity.ShowReadmeOnStart": "true",
     "RunOnceActivity.git.unshallow": "true",
     "git-widget-placeholder": "main",
-    "last_opened_file_path": "E:/SRC/webpractice/JavaScript练习/Notification",
+    "last_opened_file_path": "E:/SRC/webpractice",
     "node.js.detected.package.eslint": "true",
     "node.js.detected.package.tslint": "true",
     "node.js.selected.package.eslint": "(autodetect)",
@@ -99,6 +114,9 @@
       <workItem from="1738467399360" duration="19129000" />
       <workItem from="1738548795515" duration="3296000" />
       <workItem from="1738559144985" duration="17664000" />
+      <workItem from="1738592533010" duration="123000" />
+      <workItem from="1738632867002" duration="12419000" />
+      <workItem from="1738660672963" duration="4791000" />
     </task>
     <task id="LOCAL-00001" summary="2025.01.27&#10;整理">
       <option name="closed" value="true" />
@@ -140,7 +158,15 @@
       <option name="project" value="LOCAL" />
       <updated>1738592443453</updated>
     </task>
-    <option name="localTasksCounter" value="6" />
+    <task id="LOCAL-00006" summary="2025.02.03&#10;dragdrop&#10;notification&#10;ReadableStream">
+      <option name="closed" value="true" />
+      <created>1738592552523</created>
+      <option name="number" value="00006" />
+      <option name="presentableId" value="LOCAL-00006" />
+      <option name="project" value="LOCAL" />
+      <updated>1738592552523</updated>
+    </task>
+    <option name="localTasksCounter" value="7" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">

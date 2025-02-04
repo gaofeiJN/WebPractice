@@ -1,0 +1,46 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>Title</title>
+</head>
+<body>
+<div id="container"></div>
+
+<!-- template标签：会被解析为DOM子树，但是不会渲染到页面上 -->
+<template id="template">
+    <p>苹果</p>
+    <p>香蕉</p>
+    <p>橘子</p>
+
+    <!-- 把script标签放入template中可以推迟脚本的运行 -->
+    <script>
+        console.log('我是<template>标签中的脚本');
+    </script>
+</template>
+
+<script>
+    console.log('我是普通脚本');
+
+    // 无法直接访问template中的元素
+    let list = document.querySelectorAll('p');
+    console.log(list);      // NodeList[]
+
+    const template = document.querySelector('#template');
+    list = template.querySelectorAll('p');
+    console.log(list);      // NodeList[]
+
+    // 使用template节点的content属性访问文档片段DocumentFragment
+    fragment = template.content;
+    list = fragment.querySelectorAll('p');
+    console.log(list);      // NodeList(3)[p, p, p]
+
+    // 使用DocumentFragment向DOM中插入节点的方法
+    const container = document.querySelector('#container');
+    // container.appendChild(fragment);
+    // container.appendChild(document.importNode(fragment, true));
+    container.appendChild(fragment.cloneNode(true));
+
+</script>
+</body>
+</html>
