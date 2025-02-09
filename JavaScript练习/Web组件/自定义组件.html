@@ -1,0 +1,103 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>Title</title>
+</head>
+<body>
+<!-- 自定义组件 -->
+<my-component></my-component>
+<hr>
+<my-component gfattr="hello"></my-component>
+<hr>
+<my-component gfattr="world"></my-component>
+
+<!-- 自定义组件使用的模板 -->
+<template id="template">
+    <style>
+        p {
+            color: red
+        }
+
+        button {
+            border: thin solid blue;
+            background-color: white;
+            color: blue;
+        }
+
+        button:hover {
+            border: thin solid blue;
+            background-color: blue;
+            color: white;
+            box-shadow: 5px 5px 5px #888888;
+        }
+    </style>
+
+    <p>Hello World</p>
+    <button>Click Me</button>
+</template>
+
+<script>
+    // 自定义组件的类
+    class MyComponent extends HTMLElement {
+        // 构造函数
+        constructor() {
+            super();
+            console.log('---- constructor ----');
+
+            // 设置属性
+            this.gfattr = 'ok';
+
+            // 添加影子DOM
+            const shadow = this.attachShadow({mode: 'open'});
+            const fragment = document.getElementById('template').content;
+            shadow.appendChild(fragment.cloneNode(true));
+
+            // 添加事件监听器
+            shadow.querySelector('button').addEventListener('click', () => {
+                alert('button clicked');
+            });
+        }
+
+        // 想要实现动态绑定的属性
+        static get observedAttributes() {
+            return ['gfattr'];
+        }
+
+        // 回调方法
+        connectedCallback() {
+            console.log('---- connected---');
+        }
+
+        disconnectedCallback() {
+            console.log('---- disconnected---');
+        }
+
+        attributeChangedCallback(name, oldValue, newValue) {
+            if (oldValue !== newValue) {
+                console.log('---- attributeChanged---');
+                console.log(`from ${oldValue} to ${newValue}`);
+                this[name] = newValue;
+            }
+        }
+
+        adoptedCallback() {
+            console.log('---- adopted---');
+        }
+
+        // 访问器属性
+        get gfattr() {
+            return this.getAttribute('gfattr');
+        }
+
+        set gfattr(value) {
+            console.log('set gfattr to ' + value);
+            this.setAttribute('gfattr', value);
+        }
+    }
+
+    // 定义自定义组件
+    customElements.define('my-component', MyComponent);
+</script>
+</body>
+</html>

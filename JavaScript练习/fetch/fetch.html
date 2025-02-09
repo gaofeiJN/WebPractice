@@ -1,0 +1,29 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>fetch</title>
+</head>
+<body>
+<h2>fetch</h2>
+<button onclick="fetching()">fetch bilibili</button>
+<hr>
+<iframe src=""></iframe>
+
+<script>
+    function fetching() {
+        // Access to fetch at 'https://www.bilibili.com/' from origin 'http://localhost:63342' has been blocked by CORS policy:
+        // No 'Access-Control-Allow-Origin' header is present on the requested resource.
+        // If an opaque response serves your needs, set the request's mode to 'no-cors' to fetch the resource with CORS disabled.
+        fetch('https://www.bilibili.com/', {mode: 'no-cors'})
+            .then(response => response.text())
+            .then(text => {
+                console.log(text);
+
+                // const iframe = document.querySelector('iframe');
+                // iframe.contentWindow.document.write(text);
+            });
+    }
+</script>
+</body>
+</html>

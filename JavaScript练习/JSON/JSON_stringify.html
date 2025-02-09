@@ -1,0 +1,117 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>Title</title>
+</head>
+<body>
+
+
+<script>
+    console.log(JSON);
+
+    // JSON.stringify( value:any, replacer?:array | function, spaces?:number | string):string
+    // 将一个值序列化为JSON格式的字符串
+    //    序列化原始值类型。Symbol类型会转化为undefined
+    let text1 = JSON.stringify(5);
+    console.log(text1);                 // 5
+    text1 = JSON.stringify("gao feifei");
+    console.log(text1);                 // "gao feifei"
+    text1 = JSON.stringify(false);
+    console.log(text1);                 // false
+    text1 = JSON.stringify(null);
+    console.log(text1);                 // null
+    text1 = JSON.stringify(undefined);
+    console.log(text1);                 // undefined
+    text1 = JSON.stringify(Symbol());
+    console.log(text1);                 // undefined
+    text1 = JSON.stringify(()=>{});
+    console.log(text1);                 // undefined
+
+    // 序列化对象
+    // 1.键为Symbol类型的属性会被忽略
+    // 2.值为undefined的属性会被忽略
+    // 3.成员方法会被忽略
+    // 4.原型上的成员会被忽略
+    console.log('---序列化对象----------');
+    let symbol = Symbol();
+    let obj1 = {
+        name: "gao fei",
+        age: 18,
+        city: ["beijing", "shanghai", "jinan"],
+        books: {
+            0: "Javascript高级程序设计",
+            1: "HTML5权威只能",
+            2: "Java核心技术",
+        },
+        [symbol]: "symbol",
+        var1: null,
+        var2: undefined,
+        getName: function () {
+            console.log(this.name);
+        }
+    }
+
+    let text2 = JSON.stringify(obj1);
+    console.log(text2);
+    // {"name":"gao fei","age":18,"city":["beijing","shanghai","jinan"],
+    // "books":{"0":"Javascript高级程序设计","1":"HTML5权威只能","2":"Java核心技术"},"var1":null}
+
+    //
+    let pro = {
+        name: "gao feifei",
+        age: 18,
+        getName() {
+            return this.name;
+        }
+    }
+
+    function cons() {
+        this.city = "jinan";
+        this.book = "Javascript高级程序设计";
+        this.getCity = function () {
+            console.log('hello world');
+        }
+    }
+
+    cons.prototype = pro;
+    let obj2 = new cons();
+    console.log(obj2);                      // cons{city: 'jinan', book: 'Javascript高级程序设计', getCity: ƒ}
+    console.log(JSON.stringify(obj2));      // {"city":"jinan","book":"Javascript高级程序设计"}
+
+    // 序列化数组
+    // 1.☆☆☆数组中元素的值为undefined，Symbol类型，函数的时候，会被序列化为null☆☆☆
+    let arr1 = [0, 'jinan', false, null, undefined, Symbol(''), {age: 18}, function hello() {
+        console.log('hello world');
+    }];
+    console.log(JSON.stringify(arr1));          // [0,"jinan",false,null,null,null,{"age":18},null]
+
+    // replacer和spaces
+    function replacer( key, value) {
+        switch (key) {
+            case 'age':
+                return value;
+                break;
+            case 'city':
+                return 'hongkong';
+                break;
+            case 'books':
+                return 'bootstrap';
+                break;
+            default:
+                return value;
+        }
+    }
+    let text3=JSON.stringify(obj1,replacer,'---');
+    console.log(text3);
+    // {
+    //     ---"name": "gao fei",
+    //     ---"age": 18,
+    //     ---"city": "hongkong",
+    //     ---"books": "bootstrap",
+    //     ---"var1": null
+    // }
+
+</script>
+</body>
+</html>
