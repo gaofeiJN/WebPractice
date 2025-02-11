@@ -1,0 +1,30 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>Title</title>
+    <style>
+        button, span, label {
+            display: block;
+        }
+    </style>
+</head>
+<body>
+<span>DB名：medb;ObjectStorage：megang;索引：name</span>
+<button type="button" id="create">新建DB</button>
+<button type="button" id="cursor">用游标遍历DB</button>
+<hr>
+<label for="in0" text-align="ltr">编号：<input type="text" id="in0"></label>
+<label for="in1" text-align="ltr">名字：<input type="text" id="in1"></label>
+<label for="in2" text-align="ltr">年龄：<input type="text" id="in2"></label>
+<label for="in3" text-align="ltr">城市：<input type="text" id="in3"></label>
+<hr>
+<button type="button" id="add">添加记录</button>
+<button type="button" id="del">删除记录</button>
+<button type="button" id="put">更改记录</button>
+<button type="button" id="get">查询记录</button>
+<button type="button" id="idx">用索引查询记录</button>
+
+<script src="indexedDB-综合练习.js"></script>
+</body>
+</html>
