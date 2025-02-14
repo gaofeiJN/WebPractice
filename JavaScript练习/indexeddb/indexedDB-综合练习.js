@@ -13,6 +13,10 @@ const putRecord = document.getElementById("put");
 const getRecord = document.getElementById("get");
 const idxRecord = document.getElementById("idx");
 
+//
+let range=IDBKeyRange.only("002");
+console.log(range);
+
 // global
 let req;
 let db;
@@ -189,6 +193,7 @@ idxRecord.onclick = function () {
 
     // 取得ObjectStorage的index
     idx = os.index("userName");
+    trans.
 
     // 查询记录
     req = idx.get(name);

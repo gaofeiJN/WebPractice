@@ -1,0 +1,17 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>Title</title>
+</head>
+<body>
+
+<script>
+    // 在other线程添加BroadcastChannel
+    let channel = new BroadcastChannel("broadcast");
+    channel.onmessage = function (event) {
+        console.log(`receive message in other: ${event.data}`);
+    }
+</script>
+</body>
+</html>

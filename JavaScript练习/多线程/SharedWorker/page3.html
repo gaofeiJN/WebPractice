@@ -1,0 +1,24 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>Title</title>
+</head>
+<body>
+<button id="btn">发送消息</button>
+
+<script>
+    // 创建一个SharedWorker
+    let worker = new SharedWorker("worker.js","gf_worker");
+    let port = worker.port;
+    port.start();
+    port.onmessage = function (event) {
+        console.log(`---page3: 接收到来自SharedWorker的消息 ${event.data}`);
+    }
+
+    document.getElementById("btn").onclick = function () {
+        port.postMessage("message from page3");
+    }
+</script>
+</body>
+</html>

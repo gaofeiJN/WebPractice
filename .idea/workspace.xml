@@ -4,10 +4,27 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="9d16ac72-89e7-40d3-a4d3-9bbedbe3b8ce" name="Changes" comment="2025.02.09&#10;XHR&#10;fetch&#10;Request&#10;Response&#10;MIME&#10;Header&#10;cors">
-      <change afterPath="$PROJECT_DIR$/JavaScript练习/indexeddb/indexedDB-综合练习.html" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/JavaScript练习/indexeddb/indexedDB-综合练习.js" afterDir="false" />
+    <list default="true" id="9d16ac72-89e7-40d3-a4d3-9bbedbe3b8ce" name="Changes" comment="2025.02.11&#10;cookie&#10;Storage&#10;indexedDB">
+      <change afterPath="$PROJECT_DIR$/JavaScript练习/module/bothexport.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/JavaScript练习/module/defaultexport.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/JavaScript练习/module/main.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/JavaScript练习/module/module.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/JavaScript练习/module/namedexport.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/JavaScript练习/多线程/Worker_importScripts/import.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/JavaScript练习/多线程/Worker_importScripts/main.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/JavaScript练习/多线程/Worker_importScripts/main.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/JavaScript练习/多线程/Worker_importScripts/worker.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/JavaScript练习/多线程/Worker_基本应用/Worker.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/JavaScript练习/多线程/Worker_基本应用/Worker.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/JavaScript练习/多线程/Worker_基本应用/main.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/JavaScript练习/多线程/Worker_通信_BroadcastChannel/main.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/JavaScript练习/多线程/Worker_通信_BroadcastChannel/other.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/JavaScript练习/多线程/Worker_通信_BroadcastChannel/worker.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/JavaScript练习/多线程/Worker_通信messagechanel/main.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/JavaScript练习/多线程/Worker_通信messagechanel/main.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/JavaScript练习/多线程/Worker_通信messagechanel/worker.js" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/JavaScript练习/indexeddb/indexedDB-综合练习.js" beforeDir="false" afterPath="$PROJECT_DIR$/JavaScript练习/indexeddb/indexedDB-综合练习.js" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -38,6 +55,9 @@
     &quot;accountId&quot;: &quot;42b4ffa3-ab0d-4a34-9d87-a721f2c7432c&quot;
   }
 }</component>
+  <component name="ProblemsViewState">
+    <option name="selectedTabId" value="CurrentFile" />
+  </component>
   <component name="ProjectColorInfo">{
   &quot;customColor&quot;: &quot;&quot;,
   &quot;associatedIndex&quot;: 8
@@ -47,22 +67,22 @@
     <option name="hideEmptyMiddlePackages" value="true" />
     <option name="showLibraryContents" value="true" />
   </component>
-  <component name="PropertiesComponent"><![CDATA[{
-  "keyToString": {
-    "DefaultHtmlFileTemplate": "HTML File",
-    "RunOnceActivity.ShowReadmeOnStart": "true",
-    "RunOnceActivity.git.unshallow": "true",
-    "git-widget-placeholder": "main",
-    "last_opened_file_path": "E:/SRC/webpractice",
-    "node.js.detected.package.eslint": "true",
-    "node.js.detected.package.tslint": "true",
-    "node.js.selected.package.eslint": "(autodetect)",
-    "node.js.selected.package.tslint": "(autodetect)",
-    "nodejs_package_manager_path": "npm",
-    "settings.editor.selected.configurable": "preferences.keymap",
-    "vue.rearranger.settings.migration": "true"
+  <component name="PropertiesComponent">{
+  &quot;keyToString&quot;: {
+    &quot;DefaultHtmlFileTemplate&quot;: &quot;HTML File&quot;,
+    &quot;RunOnceActivity.ShowReadmeOnStart&quot;: &quot;true&quot;,
+    &quot;RunOnceActivity.git.unshallow&quot;: &quot;true&quot;,
+    &quot;git-widget-placeholder&quot;: &quot;main&quot;,
+    &quot;last_opened_file_path&quot;: &quot;E:/SRC/webpractice&quot;,
+    &quot;node.js.detected.package.eslint&quot;: &quot;true&quot;,
+    &quot;node.js.detected.package.tslint&quot;: &quot;true&quot;,
+    &quot;node.js.selected.package.eslint&quot;: &quot;(autodetect)&quot;,
+    &quot;node.js.selected.package.tslint&quot;: &quot;(autodetect)&quot;,
+    &quot;nodejs_package_manager_path&quot;: &quot;npm&quot;,
+    &quot;settings.editor.selected.configurable&quot;: &quot;preferences.keymap&quot;,
+    &quot;vue.rearranger.settings.migration&quot;: &quot;true&quot;
   }
-}]]></component>
+}</component>
   <component name="RecentsManager">
     <key name="CopyFile.RECENT_KEYS">
       <recent name="E:\SRC\webpractice\JavaScript练习\Notification" />
@@ -71,11 +91,11 @@
       <recent name="E:\SRC\webpractice\JavaScript练习\form" />
     </key>
     <key name="MoveFile.RECENT_KEYS">
+      <recent name="E:\SRC\webpractice\JavaScript练习\多线程" />
+      <recent name="E:\SRC\webpractice\JavaScript练习\多线程\Worker_基本应用" />
       <recent name="E:\SRC\webpractice\JavaScript练习\media\resources" />
       <recent name="E:\SRC\webpractice\JavaScript练习\FileAPI\src" />
       <recent name="E:\SRC\webpractice\JavaScript练习\dom" />
-      <recent name="E:\SRC\webpractice\JavaScript练习\dom\bkup" />
-      <recent name="E:\SRC\webpractice\JavaScript练习\BOM\window间关系" />
     </key>
   </component>
   <component name="SharedIndexes">
@@ -111,7 +131,10 @@
       <workItem from="1739020085848" duration="71000" />
       <workItem from="1739105070979" duration="1120000" />
       <workItem from="1739185396341" duration="53000" />
-      <workItem from="1739273163489" duration="9814000" />
+      <workItem from="1739273163489" duration="10142000" />
+      <workItem from="1739361110907" duration="2445000" />
+      <workItem from="1739364235144" duration="5373000" />
+      <workItem from="1739443634150" duration="10937000" />
     </task>
     <task id="LOCAL-00001" summary="2025.01.27&#10;整理">
       <option name="closed" value="true" />
@@ -169,11 +192,42 @@
       <option name="project" value="LOCAL" />
       <updated>1738679088433</updated>
     </task>
-    <option name="localTasksCounter" value="8" />
+    <task id="LOCAL-00008" summary="2025.02.11&#10;cookie&#10;Storage&#10;indexedDB">
+      <option name="closed" value="true" />
+      <created>1739284327534</created>
+      <option name="number" value="00008" />
+      <option name="presentableId" value="LOCAL-00008" />
+      <option name="project" value="LOCAL" />
+      <updated>1739284327534</updated>
+    </task>
+    <option name="localTasksCounter" value="9" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
     <option name="version" value="3" />
+  </component>
+  <component name="Vcs.Log.Tabs.Properties">
+    <option name="TAB_STATES">
+      <map>
+        <entry key="MAIN">
+          <value>
+            <State>
+              <option name="FILTERS">
+                <map>
+                  <entry key="branch">
+                    <value>
+                      <list>
+                        <option value="main" />
+                      </list>
+                    </value>
+                  </entry>
+                </map>
+              </option>
+            </State>
+          </value>
+        </entry>
+      </map>
+    </option>
   </component>
   <component name="VcsManagerConfiguration">
     <MESSAGE value="2025.01.27&#10;整理" />
@@ -182,7 +236,8 @@
     <MESSAGE value="2025.02.03&#10;dragdrop&#10;notification&#10;ReadableStream" />
     <MESSAGE value="2025.02.04&#10;WritableStream&#10;TransformStream&#10;ReadableStream.pipeTo | pipeThrough()&#10;Web组件（模板 | 影子DOM | 自定义组件）" />
     <MESSAGE value="2025.02.09&#10;XHR&#10;fetch&#10;Request&#10;Response&#10;MIME&#10;Header&#10;cors" />
-    <option name="LAST_COMMIT_MESSAGE" value="2025.02.09&#10;XHR&#10;fetch&#10;Request&#10;Response&#10;MIME&#10;Header&#10;cors" />
+    <MESSAGE value="2025.02.11&#10;cookie&#10;Storage&#10;indexedDB" />
+    <option name="LAST_COMMIT_MESSAGE" value="2025.02.11&#10;cookie&#10;Storage&#10;indexedDB" />
   </component>
   <component name="XDebuggerManager">
     <breakpoint-manager>

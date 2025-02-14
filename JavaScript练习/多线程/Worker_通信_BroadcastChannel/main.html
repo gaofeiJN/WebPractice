@@ -1,0 +1,34 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>Title</title>
+</head>
+<body>
+<button id="main">在main中发布广播</button>
+<button id="worker">在worker中发布广播</button>
+
+<script>
+    // 创建两个worker线程
+    let worker1 = new Worker("worker.js");
+    let worker2 = new Worker("worker.js");
+    worker1.postMessage("name:worker1");
+    worker2.postMessage("name:worker2");
+
+    // 在main线程添加BroadcastChannel
+    let channel = new BroadcastChannel("broadcast");
+    channel.onmessage = function (event) {
+        console.log(`receive message in main: ${event.data}`);
+    }
+    console.log(channel);
+
+    // 为按钮添加事件监听器
+    document.getElementById("main").onclick = function () {
+        channel.postMessage("broadcast in main");
+    }
+    document.getElementById("worker").onclick = function () {
+        worker1.postMessage("broadcast in ");
+    }
+</script>
+</body>
+</html>
