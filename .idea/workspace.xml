@@ -4,28 +4,7 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="9d16ac72-89e7-40d3-a4d3-9bbedbe3b8ce" name="Changes" comment="2025.02.11&#10;cookie&#10;Storage&#10;indexedDB">
-      <change afterPath="$PROJECT_DIR$/JavaScript练习/module/bothexport.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/JavaScript练习/module/defaultexport.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/JavaScript练习/module/main.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/JavaScript练习/module/module.html" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/JavaScript练习/module/namedexport.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/JavaScript练习/多线程/Worker_importScripts/import.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/JavaScript练习/多线程/Worker_importScripts/main.html" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/JavaScript练习/多线程/Worker_importScripts/main.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/JavaScript练习/多线程/Worker_importScripts/worker.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/JavaScript练习/多线程/Worker_基本应用/Worker.html" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/JavaScript练习/多线程/Worker_基本应用/Worker.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/JavaScript练习/多线程/Worker_基本应用/main.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/JavaScript练习/多线程/Worker_通信_BroadcastChannel/main.html" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/JavaScript练习/多线程/Worker_通信_BroadcastChannel/other.html" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/JavaScript练习/多线程/Worker_通信_BroadcastChannel/worker.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/JavaScript练习/多线程/Worker_通信messagechanel/main.html" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/JavaScript练习/多线程/Worker_通信messagechanel/main.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/JavaScript练习/多线程/Worker_通信messagechanel/worker.js" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/JavaScript练习/indexeddb/indexedDB-综合练习.js" beforeDir="false" afterPath="$PROJECT_DIR$/JavaScript练习/indexeddb/indexedDB-综合练习.js" afterDir="false" />
-    </list>
+    <list default="true" id="9d16ac72-89e7-40d3-a4d3-9bbedbe3b8ce" name="Changes" comment="2025.02.14&#10;多线程" />
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
     <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
@@ -35,8 +14,8 @@
     <option name="RECENT_TEMPLATES">
       <list>
         <option value="HTTP Request" />
-        <option value="HTML File" />
         <option value="JavaScript File" />
+        <option value="HTML File" />
       </list>
     </option>
   </component>
@@ -135,6 +114,7 @@
       <workItem from="1739361110907" duration="2445000" />
       <workItem from="1739364235144" duration="5373000" />
       <workItem from="1739443634150" duration="10937000" />
+      <workItem from="1739532855765" duration="5805000" />
     </task>
     <task id="LOCAL-00001" summary="2025.01.27&#10;整理">
       <option name="closed" value="true" />
@@ -200,7 +180,15 @@
       <option name="project" value="LOCAL" />
       <updated>1739284327534</updated>
     </task>
-    <option name="localTasksCounter" value="9" />
+    <task id="LOCAL-00009" summary="2025.02.14&#10;多线程">
+      <option name="closed" value="true" />
+      <created>1739544176672</created>
+      <option name="number" value="00009" />
+      <option name="presentableId" value="LOCAL-00009" />
+      <option name="project" value="LOCAL" />
+      <updated>1739544176672</updated>
+    </task>
+    <option name="localTasksCounter" value="10" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -237,7 +225,8 @@
     <MESSAGE value="2025.02.04&#10;WritableStream&#10;TransformStream&#10;ReadableStream.pipeTo | pipeThrough()&#10;Web组件（模板 | 影子DOM | 自定义组件）" />
     <MESSAGE value="2025.02.09&#10;XHR&#10;fetch&#10;Request&#10;Response&#10;MIME&#10;Header&#10;cors" />
     <MESSAGE value="2025.02.11&#10;cookie&#10;Storage&#10;indexedDB" />
-    <option name="LAST_COMMIT_MESSAGE" value="2025.02.11&#10;cookie&#10;Storage&#10;indexedDB" />
+    <MESSAGE value="2025.02.14&#10;多线程" />
+    <option name="LAST_COMMIT_MESSAGE" value="2025.02.14&#10;多线程" />
   </component>
   <component name="XDebuggerManager">
     <breakpoint-manager>
