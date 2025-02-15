@@ -10,6 +10,7 @@
 <script>
     // 创建一个SharedWorker
     let worker = new SharedWorker("worker.js","gf_worker");
+    console.log(worker);
     let port = worker.port;
     port.start();
     port.onmessage = function (event) {
