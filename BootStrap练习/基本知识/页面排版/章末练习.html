@@ -1,0 +1,119 @@
+<!doctype html>
+<html lang="en">
+
+<head>
+    <title>页面排版</title>
+    <!-- Required meta tags -->
+    <meta charset="utf-8"/>
+    <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no"/>
+
+    <!-- Bootstrap CSS v5.2.1 -->
+    <link href="../bs5/bootstrap.css" rel="stylesheet"/>
+    <style>
+        input[type=checkbox] {
+            margin-right: 20px;
+        }
+
+        /* 不起作用！！ */
+        th {
+            background-color: green;
+        }
+
+        td * {
+            margin-right: 50px;
+        }
+
+        .enough {
+            background-color: lightgreen;
+        }
+
+        .not-enough {
+            background-color: lightcoral;
+        }
+    </style>
+</head>
+
+<body>
+<div>
+    <h1 class="p-3 text-center">商品信息</h1>
+</div>
+
+<div class="container-fluid">
+    <a class="btn btn-success btn-sm float-end">+添加商品</a>
+</div>
+
+<div class="container-fluid">
+    <table class="table table-hover table-striped">
+        <thead>
+        <tr>
+            <th style="background-color: #96adc6">
+                <input type="checkbox" disabled/>
+                <span>商品名称</span>
+            </th>
+            <th style="background-color: #96adc6">
+                <span>商品描述</span>
+            </th>
+            <th style="background-color: #96adc6">
+                <span>当前状态</span>
+            </th>
+        </tr>
+        </thead>
+
+        <tbody>
+        <tr>
+            <td>
+                <input type="checkbox"/>
+                <span>钢笔</span>
+            </td>
+            <td>
+                <span>英雄牌钢笔50支</span>
+            </td>
+            <td>
+                <span class="enough">库存充足</span>
+                <a class="color-primary">编辑</a>
+                <a class="color-danger">删除</a>
+            </td>
+        </tr>
+
+        <tr>
+            <td>
+                <input type="checkbox"/>
+                <span>打印纸</span>
+            </td>
+            <td>
+                <span>打印纸10包</span>
+            </td>
+            <td>
+                <span class="not-enough">库存不足</span>
+                <a class="color-primary">编辑</a>
+                <a class="color-danger">删除</a>
+            </td>
+        </tr>
+
+        <tr>
+            <td>
+                <input type="checkbox"/>
+                <span>笔记本</span>
+            </td>
+            <td>
+                <span>笔记本50本</span>
+            </td>
+            <td>
+                <span class="enough">库存充足</span>
+                <a class="color-primary">编辑</a>
+                <a class="color-danger">删除</a>
+            </td>
+        </tr>
+
+        </tbody>
+
+
+    </table>
+</div>
+
+
+<!-- Bootstrap JavaScript Libraries -->
+<script src="../bs5/bootstrap.min.js"></script>
+</body>
+
+</html>

@@ -1,0 +1,101 @@
+<!doctype html>
+<html lang="en">
+
+<head>
+    <title>字体处理</title>
+    <!-- Required meta tags -->
+    <meta charset="utf-8"/>
+    <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no"/>
+
+    <!-- Bootstrap CSS v5.2.1 -->
+    <link href="../bs5/bootstrap.css" rel="stylesheet"/>
+    <link href="../bs5/all.min.css" rel="stylesheet"/>
+    <style>
+        .separate {
+            width: 50%;
+            height: 0;
+            border-top: 1px solid black;
+            margin-bottom: 1rem;
+        }
+
+        .service-item {
+            border: 1px solid lightgray;
+            padding: 1rem;
+            background-color: lightgray;
+            display: flex;
+            flex-direction: column;
+            justify-content: space-around;
+            align-items: center;
+        }
+
+        .service-item:hover {
+            background-color: var(--bs-yellow);
+            box-shadow: 2px 2px 5px 5px rgba(211, 211, 211, 0.5);
+        }
+
+        .service-item p {
+            margin-bottom: 2rem;
+        }
+
+        .service-item .more {
+            width: 50%;
+        }
+
+        .service-item .more:hover {
+            background-color: white;
+        }
+    </style>
+</head>
+<body>
+<div class="container">
+    <div class="row text-center justify-content-center p-2">
+        <h2>我们的服务</h2>
+        <p>探索精彩世界，服务由我做起</p>
+    </div>
+
+    <div class="row">
+        <div class="col-3 text-center">
+            <div class="service-item rounded-2">
+                <div class="text-center mt-3"><i class="fas fa-gas-pump fa-2x"></i></div>
+                <h4>一站式预定</h4>
+                <div class="separate"></div>
+                <p>支持员工一站式自动预定，将行政从繁琐代订工作中解放出来。</p>
+                <div class="text-center more rounded-1"><a href="#">阅读更多</a></div>
+            </div>
+        </div>
+        <div class="col-3 text-center">
+            <div class="service-item rounded-2">
+                <div class="text-center mt-3"><i class="fas fa-robot fa-2x"></i></div>
+                <h4>智能化管控</h4>
+                <div class="separate"></div>
+                <p>系统中自行设置和维护差旅政策，自动管控超支等浪费行为。</p>
+                <div class="text-center more rounded-1"><a href="#">阅读更多</a></div>
+            </div>
+        </div>
+        <div class="col-3 text-center">
+            <div class="service-item rounded-2">
+                <div class="text-center mt-3"><i class="fas fa-chart-simple fa-2x"></i></div>
+                <h4>实时性分析</h4>
+                <div class="separate"></div>
+                <p>实时分析报告，包括每月差旅消费，平均折扣等多维度分析。</p>
+            <div class="text-center more rounded-1"><a href="#">阅读更多</a></div>
+            </div>
+        </div>
+        <div class="col-3 text-center">
+            <div class="service-item rounded-2">
+                <div class="text-center mt-3"><i class="fas fa-user fa-2x"></i></div>
+                <h4>会员放心用</h4>
+                <div class="separate"></div>
+                <p>多种产品，多种特权随心使用，预定越多，积分奖励越多。</p>
+                <div class="text-center more rounded-1"><a href="#">阅读更多</a></div>
+            </div>
+        </div>
+    </div>
+
+</div>
+
+<!-- Bootstrap JavaScript Libraries -->
+<script src="../bs5/bootstrap.min.js"></script>
+<script src="../bs5/all.min.js"></script>
+</body>
+</html>

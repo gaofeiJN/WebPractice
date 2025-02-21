@@ -5,17 +5,29 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="9d16ac72-89e7-40d3-a4d3-9bbedbe3b8ce" name="Changes" comment="2025.02.14&#10;多线程">
-      <change afterPath="$PROJECT_DIR$/JavaScript练习/多线程/ServiceWorker/page1.html" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/JavaScript练习/多线程/ServiceWorker/page1.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/JavaScript练习/多线程/ServiceWorker/page2.html" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/JavaScript练习/多线程/ServiceWorker/page2.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/JavaScript练习/多线程/ServiceWorker/serviceWorker.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/JavaScript练习/多线程/Worker_封装线程池/WorkerPool.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/JavaScript练习/多线程/Worker_封装线程池/main.html" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/JavaScript练习/多线程/Worker_封装线程池/main.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/JavaScript练习/多线程/Worker_封装线程池/worker.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/BootStrap练习/基本知识/dropdown/dropdown_split.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/BootStrap练习/基本知识/dropdown/dropdown_容器.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/BootStrap练习/基本知识/弹性布局/基础练习.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/BootStrap练习/基本知识/弹性布局/章节练习.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/BootStrap练习/基本知识/网格系统/contariner.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/BootStrap练习/基本知识/网格系统/媒体查询.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/BootStrap练习/基本知识/网格系统/媒体查询2.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/BootStrap练习/基本知识/网格系统/嵌套列.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/BootStrap练习/基本知识/网格系统/网格系统.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/BootStrap练习/基本知识/网格系统/网格系统2.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/BootStrap练习/基本知识/网格系统/网格系统_练习.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/BootStrap练习/基本知识/通用样式/字体处理.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/BootStrap练习/基本知识/通用样式/定位&amp;阴影.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/BootStrap练习/基本知识/通用样式/宽度高度.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/BootStrap练习/基本知识/通用样式/浮动.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/BootStrap练习/基本知识/通用样式/章末练习.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/BootStrap练习/基本知识/通用样式/边框.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/BootStrap练习/基本知识/通用样式/边距.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/BootStrap练习/基本知识/页面排版/章末练习.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/BootStrap练习/基本知识/页面排版/页面排版.html" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/JavaScript练习/多线程/SharedWorker/page1.html" beforeDir="false" afterPath="$PROJECT_DIR$/JavaScript练习/多线程/SharedWorker/page1.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/BootStrap练习/基本知识/dropdown/index.html" beforeDir="false" afterPath="$PROJECT_DIR$/BootStrap练习/基本知识/dropdown/index.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/BootStrap练习/基本知识/古诗布局样式.html" beforeDir="false" afterPath="$PROJECT_DIR$/BootStrap练习/基本知识/网格系统/古诗布局样式.html" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -26,8 +38,8 @@
     <option name="RECENT_TEMPLATES">
       <list>
         <option value="HTTP Request" />
-        <option value="HTML File" />
         <option value="JavaScript File" />
+        <option value="HTML File" />
       </list>
     </option>
   </component>
@@ -58,22 +70,22 @@
     <option name="hideEmptyMiddlePackages" value="true" />
     <option name="showLibraryContents" value="true" />
   </component>
-  <component name="PropertiesComponent"><![CDATA[{
-  "keyToString": {
-    "DefaultHtmlFileTemplate": "HTML File",
-    "RunOnceActivity.ShowReadmeOnStart": "true",
-    "RunOnceActivity.git.unshallow": "true",
-    "git-widget-placeholder": "main",
-    "last_opened_file_path": "E:/SRC/webpractice",
-    "node.js.detected.package.eslint": "true",
-    "node.js.detected.package.tslint": "true",
-    "node.js.selected.package.eslint": "(autodetect)",
-    "node.js.selected.package.tslint": "(autodetect)",
-    "nodejs_package_manager_path": "npm",
-    "settings.editor.selected.configurable": "liveEdit",
-    "vue.rearranger.settings.migration": "true"
+  <component name="PropertiesComponent">{
+  &quot;keyToString&quot;: {
+    &quot;DefaultHtmlFileTemplate&quot;: &quot;HTML File&quot;,
+    &quot;RunOnceActivity.ShowReadmeOnStart&quot;: &quot;true&quot;,
+    &quot;RunOnceActivity.git.unshallow&quot;: &quot;true&quot;,
+    &quot;git-widget-placeholder&quot;: &quot;main&quot;,
+    &quot;last_opened_file_path&quot;: &quot;E:/SRC/webpractice&quot;,
+    &quot;node.js.detected.package.eslint&quot;: &quot;true&quot;,
+    &quot;node.js.detected.package.tslint&quot;: &quot;true&quot;,
+    &quot;node.js.selected.package.eslint&quot;: &quot;(autodetect)&quot;,
+    &quot;node.js.selected.package.tslint&quot;: &quot;(autodetect)&quot;,
+    &quot;nodejs_package_manager_path&quot;: &quot;npm&quot;,
+    &quot;settings.editor.selected.configurable&quot;: &quot;liveEdit&quot;,
+    &quot;vue.rearranger.settings.migration&quot;: &quot;true&quot;
   }
-}]]></component>
+}</component>
   <component name="RecentsManager">
     <key name="CopyFile.RECENT_KEYS">
       <recent name="E:\SRC\webpractice\JavaScript练习\Notification" />
@@ -82,11 +94,11 @@
       <recent name="E:\SRC\webpractice\JavaScript练习\form" />
     </key>
     <key name="MoveFile.RECENT_KEYS">
+      <recent name="E:\SRC\webpractice\BootStrap练习\基本知识\bs5" />
+      <recent name="E:\SRC\webpractice\BootStrap练习\基本知识\网格系统" />
+      <recent name="E:\SRC\webpractice\BootStrap练习\基本知识" />
       <recent name="E:\SRC\webpractice\JavaScript练习\多线程" />
       <recent name="E:\SRC\webpractice\JavaScript练习\多线程\Worker_基本应用" />
-      <recent name="E:\SRC\webpractice\JavaScript练习\media\resources" />
-      <recent name="E:\SRC\webpractice\JavaScript练习\FileAPI\src" />
-      <recent name="E:\SRC\webpractice\JavaScript练习\dom" />
     </key>
   </component>
   <component name="SharedIndexes">
@@ -128,6 +140,12 @@
       <workItem from="1739443634150" duration="10937000" />
       <workItem from="1739532855765" duration="5805000" />
       <workItem from="1739586753432" duration="10108000" />
+      <workItem from="1739790052052" duration="8995000" />
+      <workItem from="1739874524291" duration="10194000" />
+      <workItem from="1739962141689" duration="7867000" />
+      <workItem from="1739973146828" duration="886000" />
+      <workItem from="1740052514859" duration="6398000" />
+      <workItem from="1740139756541" duration="5446000" />
     </task>
     <task id="LOCAL-00001" summary="2025.01.27&#10;整理">
       <option name="closed" value="true" />
