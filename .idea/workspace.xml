@@ -4,32 +4,7 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="9d16ac72-89e7-40d3-a4d3-9bbedbe3b8ce" name="Changes" comment="2025.02.25&#10;bootstrap练习">
-      <change afterPath="$PROJECT_DIR$/BootStrap练习/基本知识/accordion/accordion.html" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/BootStrap练习/基本知识/card/card.html" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/BootStrap练习/基本知识/card/card2.html" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/BootStrap练习/基本知识/card/cardgroup.html" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/BootStrap练习/基本知识/nav/章末练习.html" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/BootStrap练习/基本知识/分页/分页.html" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/BootStrap练习/基本知识/列表组/列表组.html" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/BootStrap练习/基本知识/单元练习/第8章.html" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/BootStrap练习/基本知识/导航/blog.html" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/BootStrap练习/基本知识/导航/family.html" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/BootStrap练习/基本知识/导航/nav.html" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/BootStrap练习/基本知识/导航/动态导航选项卡.html" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/BootStrap练习/基本知识/导航栏/navbar-offcanvas.html" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/BootStrap练习/基本知识/导航栏/navbar.html" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/BootStrap练习/基本知识/徽章/徽章.html" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/BootStrap练习/基本知识/按钮组/btn-toolbar.html" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/BootStrap练习/基本知识/按钮组/btngroup.html" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/BootStrap练习/基本知识/消息提示框/消息提示框.html" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/BootStrap练习/基本知识/进度条/progress.html" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/BootStrap练习/基本知识/进度条/progress元素.html" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/BootStrap练习/基本知识/面包屑/面包屑.html" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/BootStrap练习/基本知识/buttomgroup/index.html" beforeDir="false" afterPath="$PROJECT_DIR$/BootStrap练习/基本知识/按钮组/index.html" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/BootStrap练习/基本知识/dropdown/dropdown_split.html" beforeDir="false" afterPath="$PROJECT_DIR$/BootStrap练习/基本知识/dropdown/dropdown_split.html" afterDir="false" />
-    </list>
+    <list default="true" id="9d16ac72-89e7-40d3-a4d3-9bbedbe3b8ce" name="Changes" comment="2025.02.25&#10;bootstrap练习" />
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
     <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
@@ -150,7 +125,7 @@
       <workItem from="1740188342532" duration="26608000" />
       <workItem from="1740273823075" duration="18085000" />
       <workItem from="1740403317902" duration="3632000" />
-      <workItem from="1740487843725" duration="1274000" />
+      <workItem from="1740487843725" duration="1304000" />
     </task>
     <task id="LOCAL-00001" summary="2025.01.27&#10;整理">
       <option name="closed" value="true" />
@@ -232,7 +207,15 @@
       <option name="project" value="LOCAL" />
       <updated>1740147255968</updated>
     </task>
-    <option name="localTasksCounter" value="11" />
+    <task id="LOCAL-00011" summary="2025.02.25&#10;bootstrap练习">
+      <option name="closed" value="true" />
+      <created>1740490538894</created>
+      <option name="number" value="00011" />
+      <option name="presentableId" value="LOCAL-00011" />
+      <option name="project" value="LOCAL" />
+      <updated>1740490538894</updated>
+    </task>
+    <option name="localTasksCounter" value="12" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
