@@ -4,30 +4,31 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="9d16ac72-89e7-40d3-a4d3-9bbedbe3b8ce" name="Changes" comment="2025.02.14&#10;多线程">
-      <change afterPath="$PROJECT_DIR$/BootStrap练习/基本知识/dropdown/dropdown_split.html" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/BootStrap练习/基本知识/dropdown/dropdown_容器.html" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/BootStrap练习/基本知识/弹性布局/基础练习.html" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/BootStrap练习/基本知识/弹性布局/章节练习.html" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/BootStrap练习/基本知识/网格系统/contariner.html" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/BootStrap练习/基本知识/网格系统/媒体查询.html" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/BootStrap练习/基本知识/网格系统/媒体查询2.html" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/BootStrap练习/基本知识/网格系统/嵌套列.html" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/BootStrap练习/基本知识/网格系统/网格系统.html" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/BootStrap练习/基本知识/网格系统/网格系统2.html" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/BootStrap练习/基本知识/网格系统/网格系统_练习.html" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/BootStrap练习/基本知识/通用样式/字体处理.html" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/BootStrap练习/基本知识/通用样式/定位&amp;阴影.html" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/BootStrap练习/基本知识/通用样式/宽度高度.html" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/BootStrap练习/基本知识/通用样式/浮动.html" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/BootStrap练习/基本知识/通用样式/章末练习.html" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/BootStrap练习/基本知识/通用样式/边框.html" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/BootStrap练习/基本知识/通用样式/边距.html" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/BootStrap练习/基本知识/页面排版/章末练习.html" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/BootStrap练习/基本知识/页面排版/页面排版.html" afterDir="false" />
+    <list default="true" id="9d16ac72-89e7-40d3-a4d3-9bbedbe3b8ce" name="Changes" comment="2025.02.25&#10;bootstrap练习">
+      <change afterPath="$PROJECT_DIR$/BootStrap练习/基本知识/accordion/accordion.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/BootStrap练习/基本知识/card/card.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/BootStrap练习/基本知识/card/card2.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/BootStrap练习/基本知识/card/cardgroup.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/BootStrap练习/基本知识/nav/章末练习.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/BootStrap练习/基本知识/分页/分页.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/BootStrap练习/基本知识/列表组/列表组.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/BootStrap练习/基本知识/单元练习/第8章.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/BootStrap练习/基本知识/导航/blog.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/BootStrap练习/基本知识/导航/family.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/BootStrap练习/基本知识/导航/nav.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/BootStrap练习/基本知识/导航/动态导航选项卡.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/BootStrap练习/基本知识/导航栏/navbar-offcanvas.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/BootStrap练习/基本知识/导航栏/navbar.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/BootStrap练习/基本知识/徽章/徽章.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/BootStrap练习/基本知识/按钮组/btn-toolbar.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/BootStrap练习/基本知识/按钮组/btngroup.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/BootStrap练习/基本知识/消息提示框/消息提示框.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/BootStrap练习/基本知识/进度条/progress.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/BootStrap练习/基本知识/进度条/progress元素.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/BootStrap练习/基本知识/面包屑/面包屑.html" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/BootStrap练习/基本知识/dropdown/index.html" beforeDir="false" afterPath="$PROJECT_DIR$/BootStrap练习/基本知识/dropdown/index.html" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/BootStrap练习/基本知识/古诗布局样式.html" beforeDir="false" afterPath="$PROJECT_DIR$/BootStrap练习/基本知识/网格系统/古诗布局样式.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/BootStrap练习/基本知识/buttomgroup/index.html" beforeDir="false" afterPath="$PROJECT_DIR$/BootStrap练习/基本知识/按钮组/index.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/BootStrap练习/基本知识/dropdown/dropdown_split.html" beforeDir="false" afterPath="$PROJECT_DIR$/BootStrap练习/基本知识/dropdown/dropdown_split.html" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -94,11 +95,11 @@
       <recent name="E:\SRC\webpractice\JavaScript练习\form" />
     </key>
     <key name="MoveFile.RECENT_KEYS">
+      <recent name="E:\SRC\webpractice\BootStrap练习\基本知识\accordion" />
+      <recent name="E:\SRC\webpractice\BootStrap练习\基本知识\按钮组" />
       <recent name="E:\SRC\webpractice\BootStrap练习\基本知识\bs5" />
       <recent name="E:\SRC\webpractice\BootStrap练习\基本知识\网格系统" />
       <recent name="E:\SRC\webpractice\BootStrap练习\基本知识" />
-      <recent name="E:\SRC\webpractice\JavaScript练习\多线程" />
-      <recent name="E:\SRC\webpractice\JavaScript练习\多线程\Worker_基本应用" />
     </key>
   </component>
   <component name="SharedIndexes">
@@ -145,7 +146,11 @@
       <workItem from="1739962141689" duration="7867000" />
       <workItem from="1739973146828" duration="886000" />
       <workItem from="1740052514859" duration="6398000" />
-      <workItem from="1740139756541" duration="5446000" />
+      <workItem from="1740139756541" duration="5528000" />
+      <workItem from="1740188342532" duration="26608000" />
+      <workItem from="1740273823075" duration="18085000" />
+      <workItem from="1740403317902" duration="3632000" />
+      <workItem from="1740487843725" duration="1274000" />
     </task>
     <task id="LOCAL-00001" summary="2025.01.27&#10;整理">
       <option name="closed" value="true" />
@@ -219,7 +224,15 @@
       <option name="project" value="LOCAL" />
       <updated>1739544176672</updated>
     </task>
-    <option name="localTasksCounter" value="10" />
+    <task id="LOCAL-00010" summary="2025.02.21&#10;bootstrap练习">
+      <option name="closed" value="true" />
+      <created>1740147255968</created>
+      <option name="number" value="00010" />
+      <option name="presentableId" value="LOCAL-00010" />
+      <option name="project" value="LOCAL" />
+      <updated>1740147255968</updated>
+    </task>
+    <option name="localTasksCounter" value="11" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -257,7 +270,9 @@
     <MESSAGE value="2025.02.09&#10;XHR&#10;fetch&#10;Request&#10;Response&#10;MIME&#10;Header&#10;cors" />
     <MESSAGE value="2025.02.11&#10;cookie&#10;Storage&#10;indexedDB" />
     <MESSAGE value="2025.02.14&#10;多线程" />
-    <option name="LAST_COMMIT_MESSAGE" value="2025.02.14&#10;多线程" />
+    <MESSAGE value="2025.02.21&#10;bootstrap练习" />
+    <MESSAGE value="2025.02.25&#10;bootstrap练习" />
+    <option name="LAST_COMMIT_MESSAGE" value="2025.02.25&#10;bootstrap练习" />
   </component>
   <component name="XDebuggerManager">
     <breakpoint-manager>

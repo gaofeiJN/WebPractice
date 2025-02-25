@@ -1,0 +1,134 @@
+<!doctype html>
+<html lang="en">
+
+<head>
+    <title>nav</title>
+    <!-- Required meta tags -->
+    <meta charset="utf-8"/>
+    <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no"/>
+
+    <!-- Bootstrap CSS v5.2.1 -->
+    <link href="../bs5/bootstrap.css" rel="stylesheet"/>
+    <style>
+        .nav-link, .dropdown-item {
+            background-color: var(--bs-white);
+            border-color: var(--bs-danger);
+            color: var(--bs-danger);
+        }
+
+        .nav-link:hover, .dropdown-item:hover {
+            background-color: var(--bs-danger);
+            border-color: var(--bs-danger);
+            color: var(--bs-white);
+        }
+    </style>
+</head>
+<body>
+<!-- 普通导航 -->
+<h3>普通导航 justify-content-center</h3>
+<ul class="nav justify-content-center">
+    <li class="nav-item"><a class="nav-link" href="#">女装包包</a></li>
+    <li class="nav-item"><a class="nav-link" href="#">男装手表</a></li>
+    <li class="nav-item"><a class="nav-link" href="#">电脑手机</a></li>
+    <li class="nav-item"><a class="nav-link" href="#">家用电器</a></li>
+</ul>
+<hr>
+
+<!-- 等宽显示 nav-justified -->
+<h3>等宽显示 nav-justified</h3>
+<ul class="nav nav-justified">
+    <li class="nav-item"><a class="nav-link" href="#">女装包包1234567</a></li>
+    <li class="nav-item"><a class="nav-link" href="#">男装手表12345</a></li>
+    <li class="nav-item"><a class="nav-link" href="#">电脑手机123</a></li>
+    <li class="nav-item"><a class="nav-link" href="#">家用电器1</a></li>
+</ul>
+<hr>
+
+<!-- 普通导航 .nav-fill -->
+<h3>普通导航 .nav-fill</h3>
+<ul class="nav nav-fill">
+    <li class="nav-item"><a class="nav-link" href="#">女装包包1234567</a></li>
+    <li class="nav-item"><a class="nav-link" href="#">男装手表12345</a></li>
+    <li class="nav-item"><a class="nav-link" href="#">电脑手机123</a></li>
+    <li class="nav-item"><a class="nav-link" href="#">家用电器1</a></li>
+</ul>
+<hr><!-- 垂直导航 -->
+<h3>垂直导航 align-items-end</h3>
+<ul class="nav flex-column align-items-end">
+    <li class="nav-item"><a class="nav-link" href="#">女装包包</a></li>
+    <li class="nav-item"><a class="nav-link" href="#">男装手表</a></li>
+    <li class="nav-item"><a class="nav-link" href="#">电脑手机</a></li>
+    <li class="nav-item"><a class="nav-link" href="#">家用电器</a></li>
+</ul>
+<hr>
+
+<!-- 标签页导航 -->
+<h3>标签页导航 justify-content-around</h3>
+<div class="container-fluid">
+    <ul class="nav nav-tabs w-100 justify-content-around">
+        <li class="nav-item"><a class="nav-link" href="#">女装包包</a></li>
+        <li class="nav-item"><a class="nav-link" href="#">男装手表</a></li>
+        <li class="nav-item"><a class="nav-link" href="#">电脑手机</a></li>
+        <li class="nav-item"><a class="nav-link" href="#">家用电器</a></li>
+    </ul>
+</div>
+<hr>
+
+<!-- 胶囊导航 -->
+<h3>胶囊导航 justify-content-between</h3>
+<div class="container-fluid">
+    <ul class="nav nav-pills w-100 justify-content-between">
+        <li class="nav-item"><a class="nav-link" href="#">女装包包</a></li>
+        <li class="nav-item"><a class="nav-link" href="#">男装手表</a></li>
+        <li class="nav-item"><a class="nav-link" href="#">电脑手机</a></li>
+        <li class="nav-item"><a class="nav-link" href="#">家用电器</a></li>
+    </ul>
+</div>
+<hr>
+
+<!-- 导航中嵌入下拉菜单 -->
+<h3>导航中嵌入下拉菜单</h3>
+<ul class="nav justify-content-center">
+    <li class="nav-item"><a class="nav-link" href="#">女装包包</a></li>
+    <li class="nav-item"><a class="nav-link" href="#">男装手表</a></li>
+    <li class="nav-item"><a class="nav-link" href="#">电脑手机</a></li>
+    <li class="nav-item btn-group">
+        <a class="nav-link dropdown-toggle" data-bs-toggle="dropdown" href="#" rol="button" aria-haspopup="true"
+           aria-expanded="false">家用电器</a>
+
+        <ul class="dropdown-menu">
+            <a class="dropdown-item" href="#">洗衣机</a>
+            <a class="dropdown-item" href="#">洗碗机</a>
+            <a class="dropdown-item" href="#">空调</a>
+            <a class="dropdown-item" href="#">冰箱</a>
+        </ul>
+    </li>
+</ul>
+<hr>
+
+<!-- 普通导航 .nav-underline -->
+<h3>普通导航 .nav-underline</h3>
+<ul class="nav nav-underline">
+    <li class="nav-item"><a class="nav-link" href="#">女装包包</a></li>
+    <li class="nav-item"><a class="nav-link" href="#">男装手表</a></li>
+    <li class="nav-item"><a class="nav-link" href="#">电脑手机</a></li>
+    <li class="nav-item"><a class="nav-link" href="#">家用电器</a></li>
+</ul>
+<hr>
+
+
+
+<!-- Bootstrap JavaScript Libraries -->
+<script src="../bs5/bootstrap.min.js"></script>
+<script src="../bs5/bootstrap.bundle.min.js"></script>
+
+<!-- Bootstrap JavaScript Libraries -->
+<!--<script src="https://cdn.jsdelivr.net/npm/@popperjs/core@2.11.8/dist/umd/popper.min.js"-->
+<!--        integrity="sha384-I7E8VVD/ismYTF4hNIPjVp/Zjvgyol6VFvRkX/vR+Vc4jQkC+hVqc2pM8ODewa9r"-->
+<!--        crossorigin="anonymous"></script>-->
+
+<!--<script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.2/dist/js/bootstrap.min.js"-->
+<!--        integrity="sha384-BBtl+eGJRgqQAUMxJ7pMwbEyER4l1g+O15P+16Ep7Q9Q+zqX6gSbd85u4mG4QzX+"-->
+<!--        crossorigin="anonymous"></script>-->
+</body>
+</html>

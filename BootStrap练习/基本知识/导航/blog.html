@@ -1,0 +1,97 @@
+<!DOCTYPE html>
+<html lang="zh-CN">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>我的博客</title>
+    <!-- Bootstrap CSS -->
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0/dist/css/bootstrap.min.css">
+    <style>
+        .post-image {
+            width: 100%;
+            height: auto;
+            border-radius: 8px;
+        }
+
+        .post-footer {
+            text-align: right;
+            margin-top: 10px;
+        }
+    </style>
+</head>
+<body>
+
+<!-- Navigation -->
+<nav class="navbar navbar-expand-lg navbar-light bg-light">
+    <div class="container">
+        <a class="navbar-brand" href="#">我的博客</a>
+        <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarNav"
+                aria-controls="navbarNav" aria-expanded="false" aria-label="Toggle navigation">
+            <span class="navbar-toggler-icon"></span>
+        </button>
+        <div class="collapse navbar-collapse" id="navbarNav">
+            <ul class="navbar-nav">
+                <li class="nav-item">
+                    <a class="nav-link active" aria-current="page" href="#">首页</a>
+                </li>
+                <li class="nav-item">
+                    <a class="nav-link" href="#">分类</a>
+                </li>
+                <li class="nav-item">
+                    <a class="nav-link" href="#">关于</a>
+                </li>
+                <li class="nav-item">
+                    <a class="nav-link" href="#">联系</a>
+                </li>
+            </ul>
+        </div>
+    </div>
+</nav>
+
+<!-- Blog Posts -->
+<div class="container mt-4">
+    <div class="row">
+        <!-- Post 1 -->
+        <div class="col-md-4">
+            <div class="card">
+                <img src="https://via.placeholder.com/500x300" class="card-img-top post-image" alt="...">
+                <div class="card-body">
+                    <h5 class="card-title">文章标题1</h5>
+                    <p class="card-text">这里是文章的简介...</p>
+                    <a href="#" class="btn btn-primary">阅读更多</a>
+                    <div class="post-footer">
+                        <small>作者: John Doe</small>
+                        <small>发布日期: 2023-01-01</small>
+                    </div>
+                </div>
+            </div>
+        </div>
+        <!-- Repeat the above div for each post, changing the image source and content accordingly -->
+        <!-- ... (Posts 2-10) ... -->
+        <!-- Post 10 -->
+        <div class="col-md-4">
+            <div class="card">
+                <img src="https://via.placeholder.com/500x300" class="card-img-top post-image" alt="...">
+                <div class="card-body">
+                    <h5 class="card-title">文章标题10</h5>
+                    <p class="card-text">这里是文章的简介...</p>
+                    <a href="#" class="btn btn-primary">阅读更多</a>
+                    <div class="post-footer">
+                        <small>作者: Jane Doe</small>
+                        <small>发布日期: 2023-01-10</small>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+</div>
+
+<!-- Footer -->
+<footer class="bg-light text-center text-lg-start">
+    <div class="text-center p-3" style="background-color: rgba(0, 0, 0, 0.2);">
+        <a class="btn btn-primary btn-floating m-1" href="#!" role="button"><i class="fab fa-facebook-f"></i></a>
+        <a class="btn btn-primary btn-floating m-1" href="#!" role="button"><i class="fab fa-twitter"></i></a>
+        <a class="btn btn-primary btn-floating m-1" href="#!" role="button"><i class="fab fa-google"></i></a>
+        <a class="btn btn-primary btn-floating m-1" href="#!" role="button"><i class="fab fa-alibaba"></i></a>
+    </div>
+</footer>

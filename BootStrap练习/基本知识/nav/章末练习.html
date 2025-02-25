@@ -1,0 +1,108 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <!-- Required meta tags -->
+    <meta http-equiv="Content-Type" content="text/html;charset=utf-8"/>
+    <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no"/>
+
+    <!-- Bootstrap CSS v5.2.1 -->
+    <link href="../bs5/bootstrap.css" rel="stylesheet"/>
+    <style>
+        .banner {
+            min-height: 640px;
+
+            position: relative;
+
+            background-image: url("./banner.jpg");
+            background-size: cover;
+            background-position: center center;
+            background-repeat: no-repeat;
+        }
+
+        .banner .banner-card {
+            padding: 1rem;
+            border-radius: 0.25rem;
+
+            width: 40%;
+            height: 30%;
+            position: absolute;
+            top: 30%;
+            left: 30%;
+
+            background-color: rgba(153, 171, 213, 0.73);
+            text-align: center;
+            color: #fff;
+
+            display: flex;
+            flex-direction: column;
+            justify-content: space-around;
+            align-items: center;
+        }
+
+        .icon-link img {
+            width: 4rem;
+            margin-top: 1rem;
+            margin-left: 4rem;
+        }
+
+        .nav-item:hover {
+            border-bottom: 1px solid rgba(153, 171, 213, 0.73);
+            border-top: 1px solid rgba(153, 171, 213, 0.73);
+            cursor: pointer;
+        }
+
+        .nav-link:hover {
+            color: var(--bs-danger);
+        }
+
+        .nav-link:hover::after {
+            content: '>>';
+        }
+    </style>
+    <title>章末练习</title>
+</head>
+<body>
+<div class="container-fluid">
+    <div class="row">
+        <div class="col-sm-3 col-md-2">
+            <div class="">
+                <a class="icon-link" href="index.html"><img src="./logo.png" alt="主页" class="img-fluid"/></a>
+                <hr>
+                <ul class="nav flex-column text-start">
+                    <li class="nav-item">
+                        <a class="nav-link active" href="index.html">主页</a>
+                    </li>
+                    <li class="nav-item">
+                        <a class="nav-link" href="#">关于我们</a>
+                    </li>
+                    <li class="nav-item">
+                        <a class="nav-link" href="#">服务项目</a>
+                    </li>
+                    <li class="nav-item">
+                        <a class="nav-link" href="#">企业文化</a>
+                    </li>
+                    <li class="nav-item">
+                        <a class="nav-link" href="#">成功案例</a>
+                    </li>
+                    <li class="nav-item">
+                        <a class="nav-link" href="#">联系我们</a>
+                    </li>
+                </ul>
+            </div>
+        </div>
+        <div class="col-sm-9 col-md-10 banner">
+            <div class="banner-card">
+                <h3>新房悦府</h3>
+                <p class="h6">
+                    全学龄高端住宅，交通条件极为便利。新古典主义风格建筑，能超越悦府的只有悦府！
+                </p>
+                <a class="btn btn-danger btn-sm" href="#">详情>></a>
+            </div>
+        </div>
+    </div>
+</div>
+<!-- Bootstrap JavaScript Libraries -->
+<script src="../bs5/bootstrap.min.js"></script>
+<script src="../bs5/bootstrap.bundle.min.js"></script>
+</body>
+</html>

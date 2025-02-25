@@ -1,0 +1,109 @@
+<!doctype html>
+<html lang="en">
+
+<head>
+    <title>navbar</title>
+    <!-- Required meta tags -->
+    <meta charset="utf-8"/>
+    <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no"/>
+
+    <!-- Bootstrap CSS v5.2.1 -->
+    <link href="../bs5/bootstrap.css" rel="stylesheet"/>
+    <style>
+    </style>
+</head>
+<body>
+<!-- 普通导航栏 -->
+<h3>普通导航栏</h3>
+<div class="navbar navbar-expand-lg justify-content-center bg-light">
+    <a class="navbar-brand d-flex align-items-center" href="#">
+        <svg xmlns="http://www.w3.org/2000/svg" width="1rem" height="1rem" fill="white" class="bi bi-brilliance mx-1"
+             viewBox="0 0 16 16">
+            <path d="M8 16A8 8 0 1 1 8 0a8 8 0 0 1 0 16M1 8a7 7 0 0 0 7 7 3.5 3.5 0 1 0 0-7 3.5 3.5 0 1 1 0-7 7 7 0 0 0-7 7"/>
+        </svg>
+        Gao Fei
+    </a>
+
+    <ul class="navbar-nav">
+        <li class="navbar-item mx-2">
+            <a class="navbar-link active" aria-current="page" href="#">倚天屠龙记</a>
+        </li>
+        <li class="navbar-item mx-2">
+            <a class="navbar-link" href="#">射雕英雄传</a>
+        </li>
+        <li class="navbar-item mx-2">
+            <a class="navbar-link" href="#">侠客行</a>
+        </li>
+        <li class="navbar-item mx-2">
+            <a class="navbar-link" href="#">神雕侠侣</a>
+        </li>
+        <li class="navbar-item mx-2 dropdown">
+            <a class="navbar-link dropdown-toggle" data-bs-toggle="dropdown" aria-expanded="false"
+               href="#">家用电器</a>
+            <ul class="dropdown-menu bg-warning">
+                <li><a class="dropdown-item" href="#">手电筒</a></li>
+                <li><a class="dropdown-item" href="#">洗衣机</a></li>
+                <li><a class="dropdown-item" href="#">空调</a></li>
+                <li><a class="dropdown-item" href="#">电风扇</a></li>
+            </ul>
+        </li>
+    </ul>
+    <form class="navbar-nav d-flex">
+        <input class="form-control" type="search" placeholder="Search" aria-label="Search">
+        <button class="btn btn-outline-success" type="submit">Search</button>
+    </form>
+</div>
+
+<!-- 折叠导航栏 -->
+<h3>折叠导航栏</h3>
+<div class="navbar navbar-expand-lg navbar-dark bg-primary" data-bs-theme="dark">
+    <a class="navbar-brand d-flex align-items-center" href="#">
+        <svg xmlns="http://www.w3.org/2000/svg" width="1rem" height="1rem" fill="white" class="bi bi-brilliance mx-1"
+             viewBox="0 0 16 16">
+            <path d="M8 16A8 8 0 1 1 8 0a8 8 0 0 1 0 16M1 8a7 7 0 0 0 7 7 3.5 3.5 0 1 0 0-7 3.5 3.5 0 1 1 0-7 7 7 0 0 0-7 7"/>
+        </svg>
+        Gao Fei
+    </a>
+
+    <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarCollapse"
+            aria-controls="navbarCollapse" aria-expanded="false" aria-label="Toggle navigation">
+        <span class="navbar-toggler-icon"></span>
+    </button>
+
+    <div class="collapse navbar-collapse" id="navbarCollapse">
+        <ul class="navbar-nav p-2 w-100">
+            <li class="navbar-item mx-2">
+                <a class="navbar-link active text-white" aria-current="page" href="#">倚天屠龙记</a>
+            </li>
+            <li class="navbar-item mx-2">
+                <a class="navbar-link text-white" href="#">射雕英雄传</a>
+            </li>
+            <li class="navbar-item mx-2">
+                <a class="navbar-link text-white" href="#">侠客行</a>
+            </li>
+            <li class="navbar-item mx-2">
+                <a class="navbar-link text-white" href="#">神雕侠侣</a>
+            </li>
+            <li class="navbar-item mx-2 dropdown">
+                <a class="navbar-link dropdown-toggle text-white" data-bs-toggle="dropdown" aria-expanded="false"
+                   href="#">家用电器</a>
+                <ul class="dropdown-menu bg-warning">
+                    <li><a class="dropdown-item text-white" href="#">手电筒</a></li>
+                    <li><a class="dropdown-item text-white" href="#">洗衣机</a></li>
+                    <li><a class="dropdown-item text-white" href="#">空调</a></li>
+                    <li><a class="dropdown-item text-white" href="#">电风扇</a></li>
+                </ul>
+            </li>
+            <form class="navbar-nav d-flex">
+                <input class="form-control text-white" type="search" placeholder="Search" aria-label="Search">
+                <button class="btn btn-success" type="submit">Search</button>
+            </form>
+        </ul>
+    </div>
+</div>
+
+<!-- Bootstrap JavaScript Libraries -->
+<script src="../bs5/bootstrap.min.js"></script>
+<script src="../bs5/bootstrap.bundle.min.js"></script>
+</body>
+</html>
